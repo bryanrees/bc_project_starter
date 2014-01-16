@@ -1,0 +1,41 @@
+.comment {
+  padding:40px 40px 30px;
+  @include transition(all .3s ease-in-out);
+}
+
+.comment .avatar {
+  left:-30px;
+  position:absolute;
+  top:28px;
+}
+
+.comment textarea + .btn {
+  display:none;
+  float:right;
+  margin:5px 0 10px;
+}
+
+.comment .btn + .cancel {
+  display:none;
+  float:right;
+  margin:11px 20px 0 0;  
+}
+
+.comment textarea:focus {
+  height:150px;
+}
+
+.comment textarea:focus + .btn,
+.comment textarea:focus + .btn + .cancel {
+  display:block;
+}
+
+.comment.inline {
+  background:$light-gray;
+  padding:20px 40px 10px;
+}
+
+.comment.inline .avatar {
+  left:-20px;
+  top:13px;
+}

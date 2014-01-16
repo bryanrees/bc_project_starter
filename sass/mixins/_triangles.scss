@@ -1,0 +1,47 @@
+@mixin triangle-up ($width, $height, $color) {
+  border-left:$width solid transparent; 
+  border-right:$width solid transparent; 
+  border-bottom:$height solid $color;
+}
+
+@mixin triangle-down ($width, $height, $color) {
+  border-left:$width solid transparent; 
+  border-right:$width solid transparent; 
+  border-top:$height solid $color;
+}
+
+@mixin triangle-right ($width, $height, $color) {
+  border-bottom:$width solid transparent; 
+  border-top:$width solid transparent; 
+  border-left:$height solid $color;
+}
+
+@mixin triangle-left ($width, $height, $color) {
+  border-bottom:$width solid transparent; 
+  border-top:$width solid transparent; 
+  border-right:$height solid $color;
+}
+
+@mixin triangle-top-left ($width, $height, $color) {
+  border-left:0 solid transparent; 
+  border-right:$width solid transparent; 
+  border-bottom:$height solid $color;
+}
+
+@mixin triangle-top-right ($width, $height, $color) {
+  border-left:$width solid transparent; 
+  border-right:0 solid transparent; 
+  border-bottom:$height solid $color;
+}
+
+@mixin triangle-bottom-left ($width, $height, $color) {
+  border-left:0 solid transparent; 
+  border-right:$width solid transparent; 
+  border-top:$height solid $color;
+}
+
+@mixin triangle-bottom-right ($width, $height, $color) {
+  border-left:$width solid transparent; 
+  border-right:0 solid transparent; 
+  border-top:$height solid $color;
+}

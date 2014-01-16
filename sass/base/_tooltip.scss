@@ -1,0 +1,26 @@
+.tooltip { 
+  background:#222; 
+  @include box-shadow(0 0 20px rgba(32,32,32,.6)); 
+  display:block; 
+  font-style:italic; 
+  height:32px; 
+  left:0;
+  opacity:0;
+  padding:0 15px; 
+  position:absolute;
+  top:0; 
+  white-space:nowrap; 
+}
+
+.tooltip.mouse {
+  color:#fff;
+  line-height:32px;
+}
+  
+.tooltip:after { 
+  @include triangle-bottom-left(14px, 8px, #222); 
+  display:block; 
+  content:''; 
+  position:absolute; 
+  left:0; 
+  top:100%; }

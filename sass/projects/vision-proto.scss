@@ -1,0 +1,114 @@
+@import "compass";
+@import "../variables/variables";
+@import "vision-proto/plp";
+@import "vision-proto/pdp";
+
+html, body {
+  height:100%;
+}
+
+.container {
+  max-width:1024px;
+  min-width:0;
+  width:100%;
+}
+
+.header {
+  background:#fff;
+  border-top:0;
+  margin:0;
+  padding:0;
+  height:auto;
+  width:auto;
+}
+
+.full {
+  background-size:cover;
+  display:block;
+  height:100%;
+  width:100%;
+}
+
+.scroll img {
+  width:100%;
+}
+
+.phone {
+  background:url('../../_vision-proto/img/iphone.png') center top no-repeat;
+  background-size:cover;
+  bottom:-225px;
+  height:841px;
+  left:50%;
+  overflow:hidden;
+  position:fixed;
+  width:400px;
+}
+
+.phone div {
+  background-color:#efefef;
+  @include border-radius(4px);
+  height:600px;
+  margin:119px 0 0 29px;
+  overflow:scroll;
+  text-align:center;
+  width:346px;
+}
+
+.notes {
+  background:yellow;
+  padding:20px;
+  position:fixed;
+  top:100px;
+  left:20px;
+  max-width:300px;
+  z-index:9999;
+  display:none;
+}
+
+.hint {
+  background:$black;
+  bottom:0;
+  color:#fff;
+  font-style:italic;
+  height:32px;
+  left:0;
+  line-height:32px;
+  padding:0 10px;
+  position:fixed;
+  z-index:9999;
+}
+
+header {
+	-webkit-font-smoothing: subpixel-antialiased; 
+			font-smoothing: subpixel-antialiased;
+}
+	header .section { border-bottom:solid 1px #ededed; }
+	header img { display:block; width:100%; }
+	
+nav {
+	font-weight:bold;
+}
+	nav a { color:#222; display:inline-block; line-height: 14px; font-size:18px; padding:12px 8px 10px 15px; }
+		nav a.active { color:#3399cc; }
+		nav a:hover { color:#3399cc; }
+	nav span { color:#666; display:block; font-size:14px; font-weight:normal; font-style:italic; }
+
+menu {
+	border-bottom:solid 1px #ededed;
+	height:0px;
+	margin:0;
+	padding:0;
+}
+	menu .shop-menu { background:#ededed; display:none; position:absolute; }
+		menu .shop-menu img { display:block; width:100%; }
+		
+	menu .explore-menu { background:#fff; display:none; position:absolute; }
+		menu .explore-menu img { display:block; width:100%; }
+
+	menu .stores-menu { background:#fff; display:none; position:absolute; }
+		menu .stores-menu img { display:block; width:100%; }
+
+	menu .detour-menu { background:#fff; display:none; position:absolute; }
+		menu .detour-menu img { display:block; width:100%; }
+
+.ms-container { margin:0 auto; width:1024px; }

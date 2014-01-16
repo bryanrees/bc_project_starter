@@ -1,0 +1,899 @@
+/* line 1, ../../sass/projects/vision-proto/_plp.scss */
+.plp-heading {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* line 6, ../../sass/projects/vision-proto/_plp.scss */
+.plp-heading .header-2 {
+  margin: 0 0 10px 0;
+}
+
+/* line 10, ../../sass/projects/vision-proto/_plp.scss */
+.filters-heading {
+  cursor: pointer;
+  float: left;
+  padding-left: 1.5625%;
+  padding-right: 1.5625%;
+  position: relative;
+  width: 20%;
+}
+
+/* line 19, ../../sass/projects/vision-proto/_plp.scss */
+.results-heading {
+  float: left;
+  padding-left: 1.5625%;
+  padding-right: 1.5625%;
+  position: relative;
+  text-align: right;
+  width: 80%;
+}
+
+/* line 28, ../../sass/projects/vision-proto/_plp.scss */
+.filters-heading h4, .results-heading h4 {
+  margin: 0 0 10px 0;
+}
+
+/* line 32, ../../sass/projects/vision-proto/_plp.scss */
+.filters-heading h4 {
+  margin-left: 27px;
+}
+
+/* line 36, ../../sass/projects/vision-proto/_plp.scss */
+.results-heading h4 {
+  display: inline-block;
+}
+
+/* line 40, ../../sass/projects/vision-proto/_plp.scss */
+.filters-heading h4:before, .results-heading h4:before {
+  background: url("../../img/ico-18-list-black@2x.png") center center no-repeat;
+  background-size: 18px;
+  content: '';
+  display: inline-block;
+  height: 18px;
+  margin: -3px 5px 0;
+  top: 3px;
+  position: relative;
+  width: 18px;
+}
+
+/* line 52, ../../sass/projects/vision-proto/_plp.scss */
+.results-heading h4:before {
+  background-image: url("../../img/ico-18-sortby-black@2x.png");
+}
+
+/* line 56, ../../sass/projects/vision-proto/_plp.scss */
+.results-heading select {
+  margin-left: 10px;
+  margin-top: -5px;
+  position: relative;
+  top: -1px;
+  width: 188px;
+}
+
+/* line 64, ../../sass/projects/vision-proto/_plp.scss */
+.filters-heading .trigger {
+  background: url("../../img/ico-12-plus-black@2x.png") center center no-repeat;
+  background-size: 12px;
+  border: 1px solid #c2c2c2;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+  border-radius: 11px;
+  display: block;
+  height: 22px;
+  position: absolute;
+  left: 19px;
+  top: -2px;
+  width: 22px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+/* line 79, ../../sass/projects/vision-proto/_plp.scss */
+.filters-heading .trigger.closed {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/* line 83, ../../sass/projects/vision-proto/_plp.scss */
+.filters {
+  float: left;
+  margin-left: 0;
+  padding-left: 1.5625%;
+  padding-right: 1.5625%;
+  position: relative;
+  width: 20%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+/* line 93, ../../sass/projects/vision-proto/_plp.scss */
+.no-filter .filters {
+  margin-left: -20%;
+}
+
+/* line 97, ../../sass/projects/vision-proto/_plp.scss */
+.filter {
+  border-bottom: 1px solid #c2c2c2;
+  height: 188px;
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+/* line 106, ../../sass/projects/vision-proto/_plp.scss */
+.filter .trigger {
+  background: url("../../img/ico-12-arrow-down-black@2x.png") center center no-repeat;
+  background-size: 12px 12px;
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  z-index: 999;
+}
+
+/* line 121, ../../sass/projects/vision-proto/_plp.scss */
+.filter.closed {
+  height: 40px;
+  overflow: hidden;
+}
+
+/* line 126, ../../sass/projects/vision-proto/_plp.scss */
+.filter.closed .trigger {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/* line 130, ../../sass/projects/vision-proto/_plp.scss */
+.filter ul {
+  list-style: none;
+  margin: 5px 0 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* line 138, ../../sass/projects/vision-proto/_plp.scss */
+.filter ul li {
+  position: relative;
+  margin-top: 5px;
+}
+
+/* line 143, ../../sass/projects/vision-proto/_plp.scss */
+.filter input[type="checkbox"] {
+  position: relative;
+  top: -2px;
+}
+
+/* line 148, ../../sass/projects/vision-proto/_plp.scss */
+.filter li + a {
+  float: left;
+  margin: 5px 0 0 22px;
+  position: relative;
+}
+
+/* line 154, ../../sass/projects/vision-proto/_plp.scss */
+.filter.use {
+  height: 240px;
+}
+
+/* line 158, ../../sass/projects/vision-proto/_plp.scss */
+.filter.category {
+  height: 120px;
+}
+
+/* line 162, ../../sass/projects/vision-proto/_plp.scss */
+.filter.use.closed, .filter.category.closed {
+  height: 40px;
+}
+
+/* line 166, ../../sass/projects/vision-proto/_plp.scss */
+.filter .sort-by-filter {
+  background: #efefef;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+/* line 173, ../../sass/projects/vision-proto/_plp.scss */
+.sort-by-filter p {
+  margin: 0 0 5px 0;
+}
+
+/* line 177, ../../sass/projects/vision-proto/_plp.scss */
+.sort-by-filter a:before {
+  background: url("../../img/ico-18-sortby-black@2x.png") center center no-repeat;
+  background-size: 18px;
+  content: '';
+  display: inline-block;
+  height: 18px;
+  margin-right: 3px;
+  position: relative;
+  top: 4px;
+  width: 18px;
+}
+
+/* line 189, ../../sass/projects/vision-proto/_plp.scss */
+.closure strong:after {
+  background: #efefef url("../../img/ico-12-question-black@2x.png") center center no-repeat;
+  background-size: 12px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+  border-radius: 11px;
+  content: '';
+  display: inline-block;
+  margin-top: -6px;
+  margin-left: 10px;
+  position: relative;
+  top: 6px;
+  width: 22px;
+  height: 22px;
+}
+
+/* line 203, ../../sass/projects/vision-proto/_plp.scss */
+.listing {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 208, ../../sass/projects/vision-proto/_plp.scss */
+.results {
+  float: left;
+  position: relative;
+  top: 0;
+  width: 80%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+/* line 216, ../../sass/projects/vision-proto/_plp.scss */
+.no-filter .results {
+  left: 0;
+  width: 100%;
+}
+
+/* line 221, ../../sass/projects/vision-proto/_plp.scss */
+.results .row {
+  margin: 20px 0 40px 0;
+  padding-left: 1.5625%;
+  padding-right: 1.5625%;
+  position: relative;
+  text-align: center;
+}
+
+/* line 229, ../../sass/projects/vision-proto/_plp.scss */
+.results .row h3 {
+  margin-bottom: 0;
+}
+
+/* line 233, ../../sass/projects/vision-proto/_plp.scss */
+.results .row p {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* line 238, ../../sass/projects/vision-proto/_plp.scss */
+.row hr.light {
+  margin: 0 0 40px;
+}
+
+/* line 242, ../../sass/projects/vision-proto/_plp.scss */
+.view-all {
+  display: block;
+  float: left;
+  padding-left: 1.5625%;
+  padding-right: 1.5625%;
+  position: relative;
+  text-align: center;
+  width: 33%;
+  height: 360px;
+}
+
+/* line 253, ../../sass/projects/vision-proto/_plp.scss */
+.view-all a {
+  display: inline-block;
+  background: #efefef;
+  height: 186px;
+  margin-top: 20px;
+  padding: 70px 40px 40px;
+  position: relative;
+  width: 186px;
+}
+
+/* line 263, ../../sass/projects/vision-proto/_plp.scss */
+.product-listing {
+  float: left;
+  height: 360px;
+  margin-bottom: 10px;
+  padding-left: 1.5625%;
+  padding-right: 1.5625%;
+  position: relative;
+  width: 25%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+/* line 274, ../../sass/projects/vision-proto/_plp.scss */
+.no-filter .product-listing {
+  width: 20%;
+}
+
+/* line 278, ../../sass/projects/vision-proto/_plp.scss */
+.product-listing img {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* line 283, ../../sass/projects/vision-proto/_plp.scss */
+.product-listing .details .product-name {
+  margin-bottom: 0;
+}
+
+/* line 287, ../../sass/projects/vision-proto/_plp.scss */
+.content {
+  display: inline-block;
+  position: relative;
+  float: left;
+  padding-left: 1.5625%;
+  padding-right: 1.5625%;
+  width: 33%;
+  height: 360px;
+  overflow: hidden;
+}
+
+/* line 298, ../../sass/projects/vision-proto/_plp.scss */
+.content img {
+  width: 100%;
+}
+
+/* line 302, ../../sass/projects/vision-proto/_plp.scss */
+.modal-wrapper {
+  background: rgba(34, 34, 34, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  z-index: 9999;
+}
+
+/* line 314, ../../sass/projects/vision-proto/_plp.scss */
+.modal-wrapper.on {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 319, ../../sass/projects/vision-proto/_plp.scss */
+.gearhead-modal {
+  background: #fff;
+  -webkit-box-shadow: 0 0 24px #222222;
+  -moz-box-shadow: 0 0 24px #222222;
+  box-shadow: 0 0 24px #222222;
+  margin: -275px 0 0 -255px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+/* line 330, ../../sass/projects/vision-proto/_plp.scss */
+.modal-wrapper.on .gearhead-modal {
+  margin-top: -225px;
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  /* line 339, ../../sass/projects/vision-proto/_plp.scss */
+  .filters-heading {
+    width: 25%;
+  }
+
+  /* line 343, ../../sass/projects/vision-proto/_plp.scss */
+  .filters-heading .trigger {
+    left: 14px;
+  }
+
+  /* line 347, ../../sass/projects/vision-proto/_plp.scss */
+  .results-heading {
+    width: 75%;
+  }
+
+  /* line 351, ../../sass/projects/vision-proto/_plp.scss */
+  .results {
+    width: 75%;
+  }
+
+  /* line 355, ../../sass/projects/vision-proto/_plp.scss */
+  .filters {
+    width: 25%;
+  }
+
+  /* line 359, ../../sass/projects/vision-proto/_plp.scss */
+  .no-filter .filters {
+    margin-left: -25%;
+  }
+
+  /* line 363, ../../sass/projects/vision-proto/_plp.scss */
+  .product-listing {
+    width: 33.3333%;
+  }
+
+  /* line 367, ../../sass/projects/vision-proto/_plp.scss */
+  .no-filter .product-listing {
+    width: 25%;
+  }
+}
+/* line 1, ../../sass/projects/vision-proto/_pdp.scss */
+.product-wall {
+  background: #efefef;
+  padding: 40px 0 100px;
+}
+
+/* mini-profile */
+/* line 7, ../../sass/projects/vision-proto/_pdp.scss */
+.mini-profile {
+  background: #222;
+  box-shadow: 0 0 24px rgba(34, 34, 34, 0.6);
+  cursor: pointer;
+  display: block;
+  height: 197px;
+  opacity: 0;
+  left: -2px;
+  position: absolute;
+  top: -187px;
+  width: 440px;
+  -webkit-transform: scale(0, 0);
+  -webkit-transform-origin: left 110%;
+  -webkit-transition: all .3s ease-in-out;
+}
+
+/* line 22, ../../sass/projects/vision-proto/_pdp.scss */
+.mini-profile:after {
+  border-left: 0px solid transparent;
+  border-right: 18px solid transparent;
+  border-top: 16px solid #222;
+  display: block;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100%;
+  -webkit-transition: all .3s ease-in-out;
+}
+
+/* line 33, ../../sass/projects/vision-proto/_pdp.scss */
+.mini-profile.active {
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+}
+
+/* line 37, ../../sass/projects/vision-proto/_pdp.scss */
+.mini-profile.follow-hover:after {
+  border-top: 16px solid #99cc33;
+}
+
+/* line 40, ../../sass/projects/vision-proto/_pdp.scss */
+.profile-pic {
+  background-position: center center;
+  background-size: cover;
+  display: block;
+  height: 153px;
+  width: 153px;
+}
+
+/* line 47, ../../sass/projects/vision-proto/_pdp.scss */
+.follow-btn {
+  background: #222222 url("../../img/ico-24-plus-white.png") 10px 10px no-repeat;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  height: 44px;
+  line-height: 41px;
+  padding: 3px 20px 0 44px;
+  width: 153px;
+  -webkit-transition: background-color .3s ease-in-out;
+}
+
+/* line 58, ../../sass/projects/vision-proto/_pdp.scss */
+.mini-profile h3 {
+  margin: 0;
+  line-height: 0;
+}
+
+/* line 63, ../../sass/projects/vision-proto/_pdp.scss */
+.tab {
+  display: block;
+  height: 197px;
+  position: absolute;
+  right: 44px;
+  top: 0;
+  width: 243px;
+}
+
+/* line 71, ../../sass/projects/vision-proto/_pdp.scss */
+.tab-icon {
+  background-color: #222;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 44px;
+  position: absolute;
+  right: -44px;
+  width: 44px;
+}
+
+/* line 81, ../../sass/projects/vision-proto/_pdp.scss */
+.passions .tab-icon {
+  background-image: url("../../img/ico-24-heart-white.png");
+  top: 44px;
+}
+
+/* line 85, ../../sass/projects/vision-proto/_pdp.scss */
+.location .tab-icon {
+  background-image: url("../../img/ico-24-location-white.png");
+  top: 88px;
+}
+
+/* line 89, ../../sass/projects/vision-proto/_pdp.scss */
+.bio .tab-icon {
+  background-image: url("../../img/ico-24-description-white.png");
+}
+
+/* line 92, ../../sass/projects/vision-proto/_pdp.scss */
+.tab-content {
+  background: #fff;
+  display: none;
+  height: 197px;
+  overflow: hidden;
+  padding: 20px;
+  width: 243px;
+}
+
+/* line 100, ../../sass/projects/vision-proto/_pdp.scss */
+.tab.active .tab-icon {
+  background-color: #fff;
+}
+
+/* line 103, ../../sass/projects/vision-proto/_pdp.scss */
+.passions.active .tab-icon {
+  background-image: url("../../img/ico-24-heart-black.png");
+}
+
+/* line 106, ../../sass/projects/vision-proto/_pdp.scss */
+.location.active .tab-icon {
+  background-image: url("../../img/ico-24-location-black.png");
+}
+
+/* line 109, ../../sass/projects/vision-proto/_pdp.scss */
+.bio.active .tab-icon {
+  background-image: url("../../img/ico-24-description-black.png");
+}
+
+/* line 112, ../../sass/projects/vision-proto/_pdp.scss */
+.tab.active .tab-content {
+  display: block;
+}
+
+/* line 115, ../../sass/projects/vision-proto/_pdp.scss */
+.tab-content p:first-child {
+  margin-top: 0;
+}
+
+/* line 118, ../../sass/projects/vision-proto/_pdp.scss */
+.tab-content:after {
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  background-image: linear-gradient(bottom, #ffffff 10%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(bottom, white 10%, rgba(255, 255, 255, 0) 100%);
+  background-image: -moz-linear-gradient(bottom, white 10%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(bottom, white 10%, rgba(255, 255, 255, 0) 100%);
+  background-image: -ms-linear-gradient(bottom, white 10%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.1, white), color-stop(1, rgba(255, 255, 255, 0)));
+}
+
+/* line 133, ../../sass/projects/vision-proto/_pdp.scss */
+.full-profile {
+  background: url("../../img/ico-24-more-white.png") center center no-repeat;
+  bottom: 0;
+  display: block;
+  height: 44px;
+  position: absolute;
+  right: 0;
+  width: 44px;
+}
+
+/* line 142, ../../sass/projects/vision-proto/_pdp.scss */
+.full-profile:hover {
+  background-color: #99cc33;
+}
+
+/* line 145, ../../sass/projects/vision-proto/_pdp.scss */
+.full-profile .tooltip {
+  background: #222;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(32, 32, 32, 0.6);
+  display: inline-block;
+  font-style: italic;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 15px;
+  position: absolute;
+  right: 22px;
+  top: -28px;
+  white-space: nowrap;
+  display: none;
+  opacity: 0;
+  z-index: 9999;
+}
+
+/* line 162, ../../sass/projects/vision-proto/_pdp.scss */
+.full-profile .tooltip:after {
+  border-right: 0px solid transparent;
+  border-left: 14px solid transparent;
+  border-top: 8px solid #222;
+  display: block;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 100%;
+}
+
+/* line 6, ../../sass/projects/vision-proto.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 10, ../../sass/projects/vision-proto.scss */
+.container {
+  max-width: 1024px;
+  min-width: 0;
+  width: 100%;
+}
+
+/* line 16, ../../sass/projects/vision-proto.scss */
+.header {
+  background: #fff;
+  border-top: 0;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+}
+
+/* line 25, ../../sass/projects/vision-proto.scss */
+.full {
+  background-size: cover;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 32, ../../sass/projects/vision-proto.scss */
+.scroll img {
+  width: 100%;
+}
+
+/* line 36, ../../sass/projects/vision-proto.scss */
+.phone {
+  background: url("../../_vision-proto/img/iphone.png") center top no-repeat;
+  background-size: cover;
+  bottom: -225px;
+  height: 841px;
+  left: 50%;
+  overflow: hidden;
+  position: fixed;
+  width: 400px;
+}
+
+/* line 47, ../../sass/projects/vision-proto.scss */
+.phone div {
+  background-color: #efefef;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  height: 600px;
+  margin: 119px 0 0 29px;
+  overflow: scroll;
+  text-align: center;
+  width: 346px;
+}
+
+/* line 57, ../../sass/projects/vision-proto.scss */
+.notes {
+  background: yellow;
+  padding: 20px;
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  max-width: 300px;
+  z-index: 9999;
+  display: none;
+}
+
+/* line 68, ../../sass/projects/vision-proto.scss */
+.hint {
+  background: #222222;
+  bottom: 0;
+  color: #fff;
+  font-style: italic;
+  height: 32px;
+  left: 0;
+  line-height: 32px;
+  padding: 0 10px;
+  position: fixed;
+  z-index: 9999;
+}
+
+/* line 81, ../../sass/projects/vision-proto.scss */
+header {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
+}
+
+/* line 85, ../../sass/projects/vision-proto.scss */
+header .section {
+  border-bottom: solid 1px #ededed;
+}
+
+/* line 86, ../../sass/projects/vision-proto.scss */
+header img {
+  display: block;
+  width: 100%;
+}
+
+/* line 88, ../../sass/projects/vision-proto.scss */
+nav {
+  font-weight: bold;
+}
+
+/* line 91, ../../sass/projects/vision-proto.scss */
+nav a {
+  color: #222;
+  display: inline-block;
+  line-height: 14px;
+  font-size: 18px;
+  padding: 12px 8px 10px 15px;
+}
+
+/* line 92, ../../sass/projects/vision-proto.scss */
+nav a.active {
+  color: #3399cc;
+}
+
+/* line 93, ../../sass/projects/vision-proto.scss */
+nav a:hover {
+  color: #3399cc;
+}
+
+/* line 94, ../../sass/projects/vision-proto.scss */
+nav span {
+  color: #666;
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 96, ../../sass/projects/vision-proto.scss */
+menu {
+  border-bottom: solid 1px #ededed;
+  height: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 102, ../../sass/projects/vision-proto.scss */
+menu .shop-menu {
+  background: #ededed;
+  display: none;
+  position: absolute;
+}
+
+/* line 103, ../../sass/projects/vision-proto.scss */
+menu .shop-menu img {
+  display: block;
+  width: 100%;
+}
+
+/* line 105, ../../sass/projects/vision-proto.scss */
+menu .explore-menu {
+  background: #fff;
+  display: none;
+  position: absolute;
+}
+
+/* line 106, ../../sass/projects/vision-proto.scss */
+menu .explore-menu img {
+  display: block;
+  width: 100%;
+}
+
+/* line 108, ../../sass/projects/vision-proto.scss */
+menu .stores-menu {
+  background: #fff;
+  display: none;
+  position: absolute;
+}
+
+/* line 109, ../../sass/projects/vision-proto.scss */
+menu .stores-menu img {
+  display: block;
+  width: 100%;
+}
+
+/* line 111, ../../sass/projects/vision-proto.scss */
+menu .detour-menu {
+  background: #fff;
+  display: none;
+  position: absolute;
+}
+
+/* line 112, ../../sass/projects/vision-proto.scss */
+menu .detour-menu img {
+  display: block;
+  width: 100%;
+}
+
+/* line 114, ../../sass/projects/vision-proto.scss */
+.ms-container {
+  margin: 0 auto;
+  width: 1024px;
+}

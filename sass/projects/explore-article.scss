@@ -1,0 +1,157 @@
+@import 'compass';
+@import 'mixins/mixins';
+@import 'variables/variables';
+
+.caption { background:#222; bottom:0; color:#fff; display:block; font-style:italic; left:0; padding:0 10px; position:absolute; }
+ .caption p { margin:6px 0 2px 0; }
+
+/* hero */
+
+#hero { background:#222 url('../_explore-article/img/hero.jpg') center center no-repeat; background-size:cover; display:block; float:left; height:560px; position:relative; }
+
+#hero.camp-cooking { background-image:url('../../_explore-article/img/hero2.jpg') }
+
+/* video */
+
+#video { background:#222; height:551px; margin-top:-10px; padding:0; }
+  #video .container { position:relative; }
+  #video .video-overlay { background:url('../img/video-lg.jpg') center center no-repeat; background-size:cover; cursor:pointer; height:694px; left:0; position:absolute; top:-143px; width:100%; }
+  #video .video-overlay img { width:100%; }
+  #video .video-overlay:before { background:rgba(34,34,34,.6) url('../img/ico-play-white-32.png') center center no-repeat; border-radius:24px; content:''; display:block; height:100px; left:50%; margin:0 0 0 -50px; position:absolute; top:50%; width:100px; z-index:999; }
+  
+
+/* main */
+    
+#main { margin-top:40px; }
+  #main .container { text-align:left; }
+  
+  #main article { padding-left:50px; }
+    #main article h1 { line-height:40px; margin:25px 0 5px 0; }
+    #main article .post-meta { color:#666; font-style:italic; }
+    #main article p.intro { font-size:24px; line-height:32px; }
+    #main article h2 { margin:40px 0 10px; }
+    
+    #main article aside { display:inline-block; float:left; margin-right:20px; position:relative; }
+      #main article aside.right { float:right; margin-right:0; margin-left:20px; }
+      #main article aside .photo { position:relative; }
+        #main article aside .photo .caption { bottom:10px; }
+      #main article aside .shop-link { background:url('../img/ico-cart-blue-12.png') 0 10px no-repeat; border-top:1px solid #ccc; margin-top:10px; padding:5px 0 0 20px; position:relative; }
+      
+    #main .author { text-align:right; position:relative; }
+      #main .author .avatar { float:right; }
+      #main .author h3 { background:url('../../img/goat-black.png') 0 0 no-repeat; border-bottom:1px solid #ccc; float:left; margin:10px 0 20px 0; padding:0 0 5px 30px; width:100%; }
+      #main .author .bio { color:#999; display:block; float:left; font-style:italic; width:100%; }
+      
+      #main .targeter { background:#f1f1f1; color:#666; height:280px; text-align:center; margin-top:80px; padding-top:120px; width:100%; }
+  
+  #main .sticky-wrapper { height:0 !important; }    
+  #main .share { margin:0; padding:0; position:absolute; top:170px; right:0; width:50px; }
+    #main .share.stuck { margin-top:-75px; position:fixed; top:50%; }
+    #main .share li { display:inline-block; list-style:none; margin:0; padding:0; }
+    #main .share li a { background-color:#222; background-position:center center; background-repeat:no-repeat; background-size:30%; color:#fff; display:block; font-weight:bold; height:50px; margin-bottom:1px; padding-top:0px; text-align:center; text-indent:-9999px; width:50px; transition:all .3s ease-in-out; }
+      #main .share li a:hover { background-color:#99cc33; }
+      
+    #main .share li.comment a { background-image:url('../../img/ico-comment-white-24.png'); }
+    #main .share li.social a { background-image:url('../../img/ico-share-white-24.png'); cursor:pointer; }
+    #main .share li.top a { background-image:url('../../img/ico-arrowup-white-24.png'); opacity:0; visibility:hidden; }
+      #main .share.stuck li.top a { opacity:1; visibility:visible; }
+    
+    
+/* Comments */
+
+#comments { background:#f1f1f1; margin-top:60px; padding:40px 0 100px 0; }
+  #comments .container { text-align:left; }
+  #comments .comment-wrapper  { margin-bottom:20px; }
+
+  #comments .heading { float:left; margin-bottom:60px; position:relative; width:100%; }
+    #comments h1 { margin-bottom:0; }
+    #comments h1 span { background:url('../../_explore-article/img/ico-comment-black-46.png') center center no-repeat; color:#fff; display:inline-block; font-size:18px; height:40px; line-height:38px; margin-right:5px; position:relative; text-align:center; top:-16px; width:46px; }
+    #comments h1 + span { font-size:24px; }
+  
+    
+/* Share */
+
+#share { background-color:rgba(34,34,34,.9); display:none; height:100%; left:0; position:fixed; top:0; width:100%; z-index:9999; }
+  #share .share-wrapper { background:#fff; left:50%; margin-left:-300px; margin-top:-200px; min-height:400px; position:absolute; top:50%; width:600px; }
+  #share .share-wrapper .share-header { background:#222 url('../img/article-gearhead/hero2.jpg') center center no-repeat; background-size:cover; display:block; float:left; height:200px; padding:0; position:relative; width:100%; }
+    .share-header .gradient { background-image: linear-gradient(left , rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 80%); background-image: -o-linear-gradient(left , rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 50%); background-image: -moz-linear-gradient(left , rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 80%); background-image: -webkit-linear-gradient(left , rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 80%); background-image: -ms-linear-gradient(left , rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 80%);background-image: -webkit-gradient(linear,left top,right top,color-stop(0, rgba(0,0,0,.5)),color-stop(.8, rgba(0,0,0,0))); display:block; height:100%; left:0; position:absolute; top:0; width:100%; }
+    .share-header h3 { bottom:0; color:#fff; left:40px; margin-bottom:15px; position:absolute; }
+    
+  .share-wrapper .share-content { float:left; padding:20px 40px 50px 40px; position:relative; }
+    .share-content h3 { margin:0 0 3px 0; }
+  
+  .share-widgets { margin:0; margin-top:20px; padding:0; list-style:none; white-space:nowrap; }  
+  .share-widgets .share-widget { background-color:#222; background-position:center center; background-repeat:no-repeat; cursor:pointer; display:inline-block; height:50px; margin:0 5px; width:50px; transition:background-color .3s ease-in-out; }
+    .share-widgets .share-widget:first-child { margin-left:0; }
+    .share-widgets .share-widget:last-child { margin-right:0; }
+    .share-widgets .share-widget:hover { background-color:#99cc33; }
+    
+    .share-widget.twitter { background-image:url('../../img/ico-twitter-white-18.png'); }
+    .share-widget.facebook { background-image:url('../../img/ico-facebook-white-18.png'); }
+    .share-widget.g-plus { background-image:url('../../img/ico-gplus-white-18.png'); }
+    .share-widget.email { background-image:url('../../img/ico-email-white-18.png'); }
+    .share-widget.link { background-image:url('../../img/ico-link-white-18.png'); }
+    
+    .link-input { display:inline-block; height:50px; position:relative; width:215px; }
+      .link-input input { background:#f1f1f1; border:none; font-style:italic; left:-5px; line-height:45px; margin:0; padding:5px 82px 0 10px; position:relative; top:-19px; height:50px; width:230px; }
+      .link-input .copy-link { background:#f1f1f1; height:50px; display:block; line-height:45px; padding:5px 10px 0; position:absolute; right:-10px; top:-19px; }
+        .link-input .copy-link:after { background-image: linear-gradient(left , rgba(241,241,241,0) 0%, rgba(241,241,241,1) 100%); background-image: -o-linear-gradient(left , rgba(241,241,241,0) 0%, rgba(241,241,241,1) 100%); background-image: -moz-linear-gradient(left , rgba(241,241,241,0) 0%, rgba(241,241,241,1) 100%); background-image: -webkit-linear-gradient(left , rgba(241,241,241,0) 0%, rgba(241,241,241,1) 100%); background-image: -ms-linear-gradient(left , rgba(241,241,241,0) 0%, rgba(241,241,241,1) 100%);background-image: -webkit-gradient(linear,left top,right top,color-stop(0, rgba(241,241,241,0)),color-stop(1, rgba(241,241,241,1))); content:''; display:block; height:50px; left:-50px; position:absolute; top:0; width:50px; }
+        
+    
+  .share-wrapper .close { background:#222 url('../../img/ico-close-white-18.png') center center no-repeat; cursor:pointer; display:block; height:50px; position:absolute; right:0; top:0; width:50px; transition:background-color .3s ease-in-out; }
+    .share-wrapper .close:hover { background-color:#99cc33; }
+    
+
+
+
+
+
+@media (max-width: 1024px) {
+
+  #hero {
+    height:350px;
+  }
+
+  #main article {
+    padding-right:85px;
+  }
+  
+  #main .share {
+    width:44px;
+  }
+  
+  #main .share li a {
+    height:44px;
+    width:44px;
+  }
+  
+  #main .share li.social a {
+    background-image:url('../../img/ico-18-share-white@2x.png');
+    background-size:18px;
+  }
+  
+  #main .share li.comment a {
+    background-image:url('../../img/ico-18-comment-white@2x.png');
+    background-size:18px;
+  }
+  
+  #main .share li.top a {
+    background-image:url('../../img/ico-18-arrow-up-white@2x.png');
+    background-size:18px;
+  }
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

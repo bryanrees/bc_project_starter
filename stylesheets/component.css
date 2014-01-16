@@ -1,0 +1,111 @@
+body { 
+  background:#efefef; 
+  padding:40px 0 100px; 
+}
+
+pre { 
+  margin:20px 0 40px; 
+  width:100%; 
+}
+
+hr { 
+  margin-top:40px;
+}
+
+.wiki-head p:first-child {
+  margin-bottom:0;
+}
+
+.wiki-head h2 {
+  margin-top:0;
+}
+
+.grid {
+  display:none;
+  position:fixed;
+  height:100%;
+  left:0;
+  top:0;
+  width:100%;
+}
+
+.grid .container {
+  height:100%;
+  z-index:999;
+}
+
+.grid .container img {
+  height:100%;
+  width:100%;
+}
+
+.grid-toggle-wrapper {
+  left:0;
+  position:absolute;
+  top:82px;
+  z-index:9999;
+  width:100%;
+}
+
+.input-wrapper {
+  padding:7px 10px 2px 7px;
+  background:#F7F7F8;
+  border-radius:3px;
+  width:auto;
+  position:relative;
+  float:right;
+}
+
+input.grid-toggle {
+  margin-right:5px;
+  position:relative;
+  top:-3px;
+}
+
+.highlight {
+  background:yellow;
+}
+
+.menu {
+  margin:0;
+  padding:0;
+}
+
+.menu li {
+  list-style:none;
+  margin:0;
+  padding:0 10px;
+  line-height:28px;
+  padding-top:4px;
+  height:32px;
+  width:100%;
+}
+
+.menu li a {
+  color:#666;
+}
+
+.menu li.active {
+  background:rgba(255,255,255,.8);
+}
+
+.menu li.active a {
+  color:#222;
+}
+
+.menu li a:hover {
+  color:#222;
+}
+
+.menu li.heading {
+  background-color:rgba(255,255,255,.4);
+  display:block;
+  font-weight:bold;
+  text-transform:uppercase;
+  margin:20px 0 0;
+}
+
+.menu li.heading:first-child {
+  margin-top:12px;
+}
+

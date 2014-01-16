@@ -1,0 +1,49 @@
+.helpful { 
+  background:#222 url('../img/ico-18-thumbsup-white.png') center center no-repeat; 
+  cursor:pointer; 
+  display:inline-block; 
+  float:left; 
+  height:32px; 
+  position:relative; 
+  width:32px; 
+  @include transition(all .3s ease-in-out); 
+}
+
+.helpful-votes.small .helpful {
+  background:transparent url('../img/ico-18-thumbsup-black.png') center center no-repeat;
+  height:18px;
+  width:18px;
+}
+
+.helpful:hover { 
+  background-color:#99cc33; 
+}
+
+.helpful.active { 
+  background-image:url('../img/ico-18-thumbsup-black.png'); 
+  background-color:#99cc33;
+}
+
+.helpful-vote { 
+  background-position:center center; 
+  background-repeat:no-repeat; 
+  background-size:cover; 
+  display:inline-block; 
+  height:32px; 
+  float:left; 
+  position:relative; 
+  width:32px;
+}
+
+.helpful-votes + .mouse {  
+  float:left;
+  left:10px;
+  overflow:hidden; 
+  position:relative;
+  top:10px;
+}
+
+.helpful-votes.small + .mouse {
+  left:5px;
+  top:2px;
+}

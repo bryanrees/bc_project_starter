@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>Buttons</title>
+  
+  <!-- Community Dependencies -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="../stylesheets/base.css" />  
+  <link rel="stylesheet" href="../stylesheets/animate.min.css">
+  <script src="../js/jquery.dotdotdot.min.js"></script>  
+  <script src="../js/community-base.js"></script>
+  
+  <!-- Component Display Dependencies -->
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="../stylesheets/prettify.css" />
+  <link rel="stylesheet" href="../stylesheets/component.css" />
+</head>
+<body>
+  
+  <div class="container">
+    <div class="grid_10">
+      
+      <h2>Buttons</h2>
+      <pre class="prettyprint">@import "buttons"</pre>
+      <hr />
+      
+      <h3>Default</h3>
+      <a href="#" class="btn">Lorem Ipsum</a>
+      <pre class="prettyprint">&lt;a href="#" class="btn"&gt;Lorem Ipsum&lt;/a&gt;</pre>
+      
+      <hr />
+      <h3>Options</h3>
+      
+      <a href="#" class="btn orange">Lorem Ipsum</a>
+      <pre class="prettyprint">&lt;a href="#" class="btn <span class="highlight">orange</span>"&gt;Lorem Ipsum&lt;/a&gt;</pre>
+      
+      <a href="#" class="btn green">Lorem Ipsum</a>
+      <pre class="prettyprint">&lt;a href="#" class="btn <span class="highlight">green</span>"&gt;Lorem Ipsum&lt;/a&gt;</pre>
+      
+      <a href="#" class="btn black">Lorem Ipsum</a>
+      <pre class="prettyprint">&lt;a href="#" class="btn <span class="highlight">black</span>"&gt;Lorem Ipsum&lt;/a&gt;</pre>
+      
+      <a href="#" class="btn white">Lorem Ipsum</a>
+      <pre class="prettyprint">&lt;a href="#" class="btn <span class="highlight">white</span>"&gt;Lorem Ipsum&lt;/a&gt;</pre>
+      
+      <a href="#" class="btn small">Lorem Ipsum</a>
+      <pre class="prettyprint">&lt;a href="#" class="btn <span class="highlight">small</span>"&gt;Lorem Ipsum&lt;/a&gt;</pre>
+      
+      <a href="#" class="btn icon" style="background-image:url('../img/ico-24-cart-white.png')"></a>
+      <pre class="prettyprint">&lt;a href="#" class="btn <span class="highlight">icon" style="background-image:url('../img/ico-24-cart-white.png')</span>"&gt;&lt;/a&gt;</pre>
+            
+      <a href="#" class="btn icon small" style="background-image:url('../img/ico-18-cart-white.png')"></a>
+      <pre class="prettyprint">&lt;a href="#" class="btn <span class="highlight">icon small" style="background-image:url('../img/ico-18-cart-white.png')</span>"&gt;&lt;/a&gt;</pre>
+      
+      <a href="#" class="btn icon-left" style="background-image:url('../img/ico-24-cart-white.png')">Lorem Ipsum</a>
+      <pre class="prettyprint">&lt;a href="#" class="btn <span class="highlight">icon-left" style="background-image:url('../img/ico-24-cart-white.png')"</span>&gt;Lorem Ipsum&lt;/a&gt;</pre>
+      
+      <a href="#" class="btn icon-right" style="background-image:url('../img/ico-24-cart-white.png')">Lorem Ipsum</a>
+      <pre class="prettyprint">&lt;a href="#" class="btn <span class="highlight">icon-right" style="background-image:url('../img/ico-24-cart-white.png')"</span>&gt;Lorem Ipsum&lt;/a&gt;</pre>
+      
+    </div>
+  </div>
+
+  <section class="grid">
+    <div class="container">
+      <img src="../img/grid.png" alt="" />
+    </div>
+  </section>
+
+  <section class="grid-toggle-wrapper">
+    <div class="container">
+      <div class="grid_10">
+        <div class="input-wrapper">
+          <input type="checkbox" name="grid-toggle" class="grid-toggle" id="">Grid On/Off</input>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+
+  $('.grid-toggle').on('click', function () {
+      $('.grid').toggle();
+  });
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+/* line 5, ../../sass/projects/activity-feed.scss */
+#activity-feed {
+  background: #efefef;
+}
+
+/* line 9, ../../sass/projects/activity-feed.scss */
+.activity-feed .post .image {
+  display: none;
+}
+
+/* line 13, ../../sass/projects/activity-feed.scss */
+.activity-feed .post.has-image .image {
+  display: block;
+}
+
+/* line 17, ../../sass/projects/activity-feed.scss */
+.activity-feed .image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 438px;
+  width: 438px;
+}
+
+/* line 25, ../../sass/projects/activity-feed.scss */
+.activity-feed .video iframe {
+  width: 100%;
+}
+
+/* line 29, ../../sass/projects/activity-feed.scss */
+.activity-feed .post.product .image {
+  height: 358px;
+  width: 358px;
+  margin-left: 40px;
+}
+
+/* line 35, ../../sass/projects/activity-feed.scss */
+.activity-feed .post .post-content .rating {
+  margin: 20px 0 10px 0;
+}
+
+/* line 39, ../../sass/projects/activity-feed.scss */
+.activity-feed h4 {
+  margin: 0;
+}
+
+/* line 43, ../../sass/projects/activity-feed.scss */
+.activity-feed .post-content p {
+  margin-top: 10px;
+}
+
+/* line 47, ../../sass/projects/activity-feed.scss */
+.activity-feed h4 span {
+  text-transform: none;
+  font-weight: normal;
+}
+
+/* line 52, ../../sass/projects/activity-feed.scss */
+.activity-feed .product-listing.horizontal {
+  border-bottom: 0;
+}
+
+/* line 56, ../../sass/projects/activity-feed.scss */
+.activity-feed .product-listing.horizontal img {
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 50px;
+}
+
+/* line 62, ../../sass/projects/activity-feed.scss */
+.activity-feed .product-listing.horizontal .rating {
+  margin: 0;
+}

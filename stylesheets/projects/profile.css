@@ -1,0 +1,273 @@
+/* line 5, ../../sass/projects/profile.scss */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+/* line 6, ../../sass/projects/profile.scss */
+.header.scrolled {
+  position: absolute;
+  top: 280px;
+}
+
+/* line 8, ../../sass/projects/profile.scss */
+h4.icon:before {
+  background-position: center center;
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  height: 24px;
+  margin-right: 10px;
+  position: relative;
+  top: 6px;
+  width: 24px;
+}
+
+/* line 9, ../../sass/projects/profile.scss */
+h4.passions:before {
+  background-image: url("../img/ico-24-heart-black.png");
+}
+
+/* line 10, ../../sass/projects/profile.scss */
+h4.bio:before {
+  background-image: url("../img/ico-24-profile-black.png");
+}
+
+/* line 12, ../../sass/projects/profile.scss */
+hr {
+  border: none;
+  border-top: 1px solid #c2c2c2;
+  display: block;
+  float: left;
+  height: 0;
+  margin: 20px 0;
+  position: relative;
+  width: 100%;
+}
+
+/* line 14, ../../sass/projects/profile.scss */
+.profile-hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  float: left;
+  height: 600px;
+  position: relative;
+  width: 100%;
+}
+
+/* line 15, ../../sass/projects/profile.scss */
+.profile-hero:before {
+  background: -moz-linear-gradient(top, rgba(34, 34, 34, 0) 0%, #222222 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(34, 34, 34, 0)), color-stop(100%, #222222));
+  background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0) 0%, #222222 100%);
+  background: -o-linear-gradient(top, rgba(34, 34, 34, 0) 0%, #222222 100%);
+  background: -ms-linear-gradient(top, rgba(34, 34, 34, 0) 0%, #222222 100%);
+  background: linear-gradient(to bottom, rgba(34, 34, 34, 0) 0%, #222222 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+  content: '';
+  display: block;
+  height: 250px;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* line 24, ../../sass/projects/profile.scss */
+.profile-header {
+  background: #efefef;
+  border-bottom: 1px solid #c2c2c2;
+  float: left;
+  position: relative;
+}
+
+/* line 25, ../../sass/projects/profile.scss */
+.profile-header .container {
+  padding: 0;
+}
+
+/* line 26, ../../sass/projects/profile.scss */
+.avatar {
+  background: white url("../../img/profile-default.png") center center no-repeat;
+  background-size: cover;
+  border: 3px solid #222;
+  border-radius: 80px;
+  cursor: pointer;
+  float: left;
+  height: 160px;
+  margin: -110px 0 0 10px;
+  position: absolute;
+  width: 160px;
+  z-index: 4;
+}
+
+/* line 27, ../../sass/projects/profile.scss */
+.empty .profile-header .avatar:before {
+  background: rgba(255, 255, 255, 0.8) url("../img/ico-24-camera-black.png") center center no-repeat;
+  content: '';
+  border-radius: 80px;
+  display: block;
+  height: 154px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 154px;
+  -webkit-transition: all .3s ease-in-out;
+}
+
+/* line 28, ../../sass/projects/profile.scss */
+.empty .profile-header .avatar:hover:before {
+  opacity: 1;
+}
+
+/* line 29, ../../sass/projects/profile.scss */
+.name-location {
+  color: #fff;
+  padding-left: 190px;
+  top: -60px;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 30, ../../sass/projects/profile.scss */
+.name {
+  float: left;
+  margin-right: 20px;
+  position: relative;
+  top: -15px;
+}
+
+/* line 31, ../../sass/projects/profile.scss */
+.location {
+  float: left;
+  margin-top: 24px;
+  position: relative;
+}
+
+/* line 32, ../../sass/projects/profile.scss */
+.location:before {
+  background: url("../../img/ico-18-location-white.png") center center no-repeat;
+  content: '';
+  display: block;
+  float: left;
+  height: 18px;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+  width: 18px;
+}
+
+/* line 33, ../../sass/projects/profile.scss */
+.follow {
+  right: 1.565%;
+  position: absolute;
+  top: 15px;
+}
+
+/* line 34, ../../sass/projects/profile.scss */
+.profile-nav-wrapper {
+  border-bottom: 1px solid #c2c2c2;
+}
+
+/* line 35, ../../sass/projects/profile.scss */
+.profile-nav {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  padding-left: 140px;
+  width: 980px;
+}
+
+/* line 36, ../../sass/projects/profile.scss */
+.profile-nav li {
+  border-bottom: 3px transparent #c2c2c2;
+  color: #666;
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 20px;
+  padding: 10px 10px 0;
+}
+
+/* line 37, ../../sass/projects/profile.scss */
+.profile-nav li.active {
+  border-bottom: 3px solid #222;
+  color: #222;
+  font-weight: bold;
+}
+
+/* line 38, ../../sass/projects/profile.scss */
+.profile-nav li span {
+  margin-left: 5px;
+  opacity: .4;
+}
+
+/* line 39, ../../sass/projects/profile.scss */
+.profile-pic-prompt {
+  background: #222;
+  bottom: -80px;
+  color: #fff;
+  font-size: 24px;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+  -webkit-transform: scaleY(0);
+  -webkit-transform-origin: 0 -12px;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+/* line 40, ../../sass/projects/profile.scss */
+.profile-pic-prompt.active {
+  -webkit-transform: scaleY(1);
+}
+
+/* line 41, ../../sass/projects/profile.scss */
+.profile-pic-prompt:before {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 12px solid #222;
+  content: '';
+  display: block;
+  position: absolute;
+  top: -12px;
+  left: 72px;
+}
+
+/* line 42, ../../sass/projects/profile.scss */
+.profile-pic-prompt p {
+  float: left;
+  margin: 0;
+}
+
+/* line 43, ../../sass/projects/profile.scss */
+.profile-pic-prompt .btn {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 44, ../../sass/projects/profile.scss */
+.profile-pic-prompt .close {
+  background: url("../img/ico-18-x-white.png") center center no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 38px;
+  margin-top: -19px;
+  position: absolute;
+  right: 19px;
+  top: 50%;
+  width: 38px;
+}
+
+/* line 46, ../../sass/projects/profile.scss */
+.profile-body {
+  background: #efefef;
+}
+
+/* line 48, ../../sass/projects/profile.scss */
+.profile-body .container {
+  padding: 0 1.5%;
+}

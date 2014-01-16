@@ -1,0 +1,567 @@
+/* line 5, ../../sass/projects/explore-article.scss */
+.caption {
+  background: #222;
+  bottom: 0;
+  color: #fff;
+  display: block;
+  font-style: italic;
+  left: 0;
+  padding: 0 10px;
+  position: absolute;
+}
+
+/* line 6, ../../sass/projects/explore-article.scss */
+.caption p {
+  margin: 6px 0 2px 0;
+}
+
+/* hero */
+/* line 10, ../../sass/projects/explore-article.scss */
+#hero {
+  background: #222222 url("../_explore-article/img/hero.jpg") center center no-repeat;
+  background-size: cover;
+  display: block;
+  float: left;
+  height: 560px;
+  position: relative;
+}
+
+/* line 12, ../../sass/projects/explore-article.scss */
+#hero.camp-cooking {
+  background-image: url("../../_explore-article/img/hero2.jpg");
+}
+
+/* video */
+/* line 16, ../../sass/projects/explore-article.scss */
+#video {
+  background: #222;
+  height: 551px;
+  margin-top: -10px;
+  padding: 0;
+}
+
+/* line 17, ../../sass/projects/explore-article.scss */
+#video .container {
+  position: relative;
+}
+
+/* line 18, ../../sass/projects/explore-article.scss */
+#video .video-overlay {
+  background: url("../img/video-lg.jpg") center center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  height: 694px;
+  left: 0;
+  position: absolute;
+  top: -143px;
+  width: 100%;
+}
+
+/* line 19, ../../sass/projects/explore-article.scss */
+#video .video-overlay img {
+  width: 100%;
+}
+
+/* line 20, ../../sass/projects/explore-article.scss */
+#video .video-overlay:before {
+  background: rgba(34, 34, 34, 0.6) url("../img/ico-play-white-32.png") center center no-repeat;
+  border-radius: 24px;
+  content: '';
+  display: block;
+  height: 100px;
+  left: 50%;
+  margin: 0 0 0 -50px;
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  z-index: 999;
+}
+
+/* main */
+/* line 25, ../../sass/projects/explore-article.scss */
+#main {
+  margin-top: 40px;
+}
+
+/* line 26, ../../sass/projects/explore-article.scss */
+#main .container {
+  text-align: left;
+}
+
+/* line 28, ../../sass/projects/explore-article.scss */
+#main article {
+  padding-left: 50px;
+}
+
+/* line 29, ../../sass/projects/explore-article.scss */
+#main article h1 {
+  line-height: 40px;
+  margin: 25px 0 5px 0;
+}
+
+/* line 30, ../../sass/projects/explore-article.scss */
+#main article .post-meta {
+  color: #666;
+  font-style: italic;
+}
+
+/* line 31, ../../sass/projects/explore-article.scss */
+#main article p.intro {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/* line 32, ../../sass/projects/explore-article.scss */
+#main article h2 {
+  margin: 40px 0 10px;
+}
+
+/* line 34, ../../sass/projects/explore-article.scss */
+#main article aside {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+
+/* line 35, ../../sass/projects/explore-article.scss */
+#main article aside.right {
+  float: right;
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/* line 36, ../../sass/projects/explore-article.scss */
+#main article aside .photo {
+  position: relative;
+}
+
+/* line 37, ../../sass/projects/explore-article.scss */
+#main article aside .photo .caption {
+  bottom: 10px;
+}
+
+/* line 38, ../../sass/projects/explore-article.scss */
+#main article aside .shop-link {
+  background: url("../img/ico-cart-blue-12.png") 0 10px no-repeat;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  padding: 5px 0 0 20px;
+  position: relative;
+}
+
+/* line 40, ../../sass/projects/explore-article.scss */
+#main .author {
+  text-align: right;
+  position: relative;
+}
+
+/* line 41, ../../sass/projects/explore-article.scss */
+#main .author .avatar {
+  float: right;
+}
+
+/* line 42, ../../sass/projects/explore-article.scss */
+#main .author h3 {
+  background: url("../../img/goat-black.png") 0 0 no-repeat;
+  border-bottom: 1px solid #ccc;
+  float: left;
+  margin: 10px 0 20px 0;
+  padding: 0 0 5px 30px;
+  width: 100%;
+}
+
+/* line 43, ../../sass/projects/explore-article.scss */
+#main .author .bio {
+  color: #999;
+  display: block;
+  float: left;
+  font-style: italic;
+  width: 100%;
+}
+
+/* line 45, ../../sass/projects/explore-article.scss */
+#main .targeter {
+  background: #f1f1f1;
+  color: #666;
+  height: 280px;
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 120px;
+  width: 100%;
+}
+
+/* line 47, ../../sass/projects/explore-article.scss */
+#main .sticky-wrapper {
+  height: 0 !important;
+}
+
+/* line 48, ../../sass/projects/explore-article.scss */
+#main .share {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 170px;
+  right: 0;
+  width: 50px;
+}
+
+/* line 49, ../../sass/projects/explore-article.scss */
+#main .share.stuck {
+  margin-top: -75px;
+  position: fixed;
+  top: 50%;
+}
+
+/* line 50, ../../sass/projects/explore-article.scss */
+#main .share li {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 51, ../../sass/projects/explore-article.scss */
+#main .share li a {
+  background-color: #222;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  height: 50px;
+  margin-bottom: 1px;
+  padding-top: 0px;
+  text-align: center;
+  text-indent: -9999px;
+  width: 50px;
+  transition: all .3s ease-in-out;
+}
+
+/* line 52, ../../sass/projects/explore-article.scss */
+#main .share li a:hover {
+  background-color: #99cc33;
+}
+
+/* line 54, ../../sass/projects/explore-article.scss */
+#main .share li.comment a {
+  background-image: url("../../img/ico-comment-white-24.png");
+}
+
+/* line 55, ../../sass/projects/explore-article.scss */
+#main .share li.social a {
+  background-image: url("../../img/ico-share-white-24.png");
+  cursor: pointer;
+}
+
+/* line 56, ../../sass/projects/explore-article.scss */
+#main .share li.top a {
+  background-image: url("../../img/ico-arrowup-white-24.png");
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* line 57, ../../sass/projects/explore-article.scss */
+#main .share.stuck li.top a {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Comments */
+/* line 62, ../../sass/projects/explore-article.scss */
+#comments {
+  background: #f1f1f1;
+  margin-top: 60px;
+  padding: 40px 0 100px 0;
+}
+
+/* line 63, ../../sass/projects/explore-article.scss */
+#comments .container {
+  text-align: left;
+}
+
+/* line 64, ../../sass/projects/explore-article.scss */
+#comments .comment-wrapper {
+  margin-bottom: 20px;
+}
+
+/* line 66, ../../sass/projects/explore-article.scss */
+#comments .heading {
+  float: left;
+  margin-bottom: 60px;
+  position: relative;
+  width: 100%;
+}
+
+/* line 67, ../../sass/projects/explore-article.scss */
+#comments h1 {
+  margin-bottom: 0;
+}
+
+/* line 68, ../../sass/projects/explore-article.scss */
+#comments h1 span {
+  background: url("../../_explore-article/img/ico-comment-black-46.png") center center no-repeat;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 38px;
+  margin-right: 5px;
+  position: relative;
+  text-align: center;
+  top: -16px;
+  width: 46px;
+}
+
+/* line 69, ../../sass/projects/explore-article.scss */
+#comments h1 + span {
+  font-size: 24px;
+}
+
+/* Share */
+/* line 74, ../../sass/projects/explore-article.scss */
+#share {
+  background-color: rgba(34, 34, 34, 0.9);
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* line 75, ../../sass/projects/explore-article.scss */
+#share .share-wrapper {
+  background: #fff;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -200px;
+  min-height: 400px;
+  position: absolute;
+  top: 50%;
+  width: 600px;
+}
+
+/* line 76, ../../sass/projects/explore-article.scss */
+#share .share-wrapper .share-header {
+  background: #222222 url("../img/article-gearhead/hero2.jpg") center center no-repeat;
+  background-size: cover;
+  display: block;
+  float: left;
+  height: 200px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+/* line 77, ../../sass/projects/explore-article.scss */
+.share-header .gradient {
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0.5)), color-stop(0.8, rgba(0, 0, 0, 0)));
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* line 78, ../../sass/projects/explore-article.scss */
+.share-header h3 {
+  bottom: 0;
+  color: #fff;
+  left: 40px;
+  margin-bottom: 15px;
+  position: absolute;
+}
+
+/* line 80, ../../sass/projects/explore-article.scss */
+.share-wrapper .share-content {
+  float: left;
+  padding: 20px 40px 50px 40px;
+  position: relative;
+}
+
+/* line 81, ../../sass/projects/explore-article.scss */
+.share-content h3 {
+  margin: 0 0 3px 0;
+}
+
+/* line 83, ../../sass/projects/explore-article.scss */
+.share-widgets {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+/* line 84, ../../sass/projects/explore-article.scss */
+.share-widgets .share-widget {
+  background-color: #222;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  margin: 0 5px;
+  width: 50px;
+  transition: background-color .3s ease-in-out;
+}
+
+/* line 85, ../../sass/projects/explore-article.scss */
+.share-widgets .share-widget:first-child {
+  margin-left: 0;
+}
+
+/* line 86, ../../sass/projects/explore-article.scss */
+.share-widgets .share-widget:last-child {
+  margin-right: 0;
+}
+
+/* line 87, ../../sass/projects/explore-article.scss */
+.share-widgets .share-widget:hover {
+  background-color: #99cc33;
+}
+
+/* line 89, ../../sass/projects/explore-article.scss */
+.share-widget.twitter {
+  background-image: url("../../img/ico-twitter-white-18.png");
+}
+
+/* line 90, ../../sass/projects/explore-article.scss */
+.share-widget.facebook {
+  background-image: url("../../img/ico-facebook-white-18.png");
+}
+
+/* line 91, ../../sass/projects/explore-article.scss */
+.share-widget.g-plus {
+  background-image: url("../../img/ico-gplus-white-18.png");
+}
+
+/* line 92, ../../sass/projects/explore-article.scss */
+.share-widget.email {
+  background-image: url("../../img/ico-email-white-18.png");
+}
+
+/* line 93, ../../sass/projects/explore-article.scss */
+.share-widget.link {
+  background-image: url("../../img/ico-link-white-18.png");
+}
+
+/* line 95, ../../sass/projects/explore-article.scss */
+.link-input {
+  display: inline-block;
+  height: 50px;
+  position: relative;
+  width: 215px;
+}
+
+/* line 96, ../../sass/projects/explore-article.scss */
+.link-input input {
+  background: #f1f1f1;
+  border: none;
+  font-style: italic;
+  left: -5px;
+  line-height: 45px;
+  margin: 0;
+  padding: 5px 82px 0 10px;
+  position: relative;
+  top: -19px;
+  height: 50px;
+  width: 230px;
+}
+
+/* line 97, ../../sass/projects/explore-article.scss */
+.link-input .copy-link {
+  background: #f1f1f1;
+  height: 50px;
+  display: block;
+  line-height: 45px;
+  padding: 5px 10px 0;
+  position: absolute;
+  right: -10px;
+  top: -19px;
+}
+
+/* line 98, ../../sass/projects/explore-article.scss */
+.link-input .copy-link:after {
+  background-image: linear-gradient(left, rgba(241, 241, 241, 0) 0%, #f1f1f1 100%);
+  background-image: -o-linear-gradient(left, rgba(241, 241, 241, 0) 0%, #f1f1f1 100%);
+  background-image: -moz-linear-gradient(left, rgba(241, 241, 241, 0) 0%, #f1f1f1 100%);
+  background-image: -webkit-linear-gradient(left, rgba(241, 241, 241, 0) 0%, #f1f1f1 100%);
+  background-image: -ms-linear-gradient(left, rgba(241, 241, 241, 0) 0%, #f1f1f1 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(241, 241, 241, 0)), color-stop(1, #f1f1f1));
+  content: '';
+  display: block;
+  height: 50px;
+  left: -50px;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+
+/* line 101, ../../sass/projects/explore-article.scss */
+.share-wrapper .close {
+  background: #222222 url("../../img/ico-close-white-18.png") center center no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  transition: background-color .3s ease-in-out;
+}
+
+/* line 102, ../../sass/projects/explore-article.scss */
+.share-wrapper .close:hover {
+  background-color: #99cc33;
+}
+
+@media (max-width: 1024px) {
+  /* line 111, ../../sass/projects/explore-article.scss */
+  #hero {
+    height: 350px;
+  }
+
+  /* line 115, ../../sass/projects/explore-article.scss */
+  #main article {
+    padding-right: 85px;
+  }
+
+  /* line 119, ../../sass/projects/explore-article.scss */
+  #main .share {
+    width: 44px;
+  }
+
+  /* line 123, ../../sass/projects/explore-article.scss */
+  #main .share li a {
+    height: 44px;
+    width: 44px;
+  }
+
+  /* line 128, ../../sass/projects/explore-article.scss */
+  #main .share li.social a {
+    background-image: url("../../img/ico-18-share-white@2x.png");
+    background-size: 18px;
+  }
+
+  /* line 133, ../../sass/projects/explore-article.scss */
+  #main .share li.comment a {
+    background-image: url("../../img/ico-18-comment-white@2x.png");
+    background-size: 18px;
+  }
+
+  /* line 138, ../../sass/projects/explore-article.scss */
+  #main .share li.top a {
+    background-image: url("../../img/ico-18-arrow-up-white@2x.png");
+    background-size: 18px;
+  }
+}

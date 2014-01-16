@@ -1,0 +1,64 @@
+@import 'compass';
+@import 'mixins/mixins';
+@import 'variables/variables';
+
+#activity-feed {
+  background:$light-gray;
+}
+
+.activity-feed .post .image {
+  display:none;
+}
+
+.activity-feed .post.has-image .image {
+  display:block;
+}
+
+.activity-feed .image {
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:438px;
+  width:438px;
+}
+
+.activity-feed .video iframe {
+  width:100%;
+}
+
+.activity-feed .post.product .image {
+  height:358px;
+  width:358px;
+  margin-left:40px;
+}
+
+.activity-feed .post .post-content .rating {
+  margin:20px 0 10px 0;
+}
+
+.activity-feed h4 {
+  margin:0;
+}
+
+.activity-feed .post-content p {
+  margin-top:10px;
+}
+
+.activity-feed h4 span {
+  text-transform:none;
+  font-weight:normal;
+}
+
+.activity-feed .product-listing.horizontal {
+  border-bottom:0;
+}
+
+.activity-feed .product-listing.horizontal img {
+  margin-right:10px;
+  margin-top:5px;
+  width:50px;
+}
+
+.activity-feed .product-listing.horizontal .rating {
+  margin:0;
+}

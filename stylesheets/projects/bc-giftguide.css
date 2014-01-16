@@ -1,0 +1,1681 @@
+/* line 1, ../../sass/base/_grid.scss */
+section {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+/* line 7, ../../sass/base/_grid.scss */
+.container {
+  max-width: 1000px;
+  min-width: 1000px;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+/* line 9, ../../sass/base/_grid.scss */
+.grid_1 {
+  width: 10%;
+}
+
+/* line 10, ../../sass/base/_grid.scss */
+.grid_1_half {
+  width: 16%;
+}
+
+/* line 11, ../../sass/base/_grid.scss */
+.grid_2 {
+  width: 20%;
+}
+
+/* line 12, ../../sass/base/_grid.scss */
+.grid_2_half {
+  width: 26%;
+}
+
+/* line 13, ../../sass/base/_grid.scss */
+.grid_3 {
+  width: 30%;
+}
+
+/* line 14, ../../sass/base/_grid.scss */
+.grid_3_half {
+  width: 36%;
+}
+
+/* line 15, ../../sass/base/_grid.scss */
+.grid_4 {
+  width: 40%;
+}
+
+/* line 16, ../../sass/base/_grid.scss */
+.grid_4_half {
+  width: 46%;
+}
+
+/* line 17, ../../sass/base/_grid.scss */
+.grid_5 {
+  width: 50%;
+}
+
+/* line 18, ../../sass/base/_grid.scss */
+.grid_5_half {
+  width: 56%;
+}
+
+/* line 19, ../../sass/base/_grid.scss */
+.grid_6 {
+  width: 60%;
+}
+
+/* line 20, ../../sass/base/_grid.scss */
+.grid_6_half {
+  width: 66%;
+}
+
+/* line 21, ../../sass/base/_grid.scss */
+.grid_7 {
+  width: 70%;
+}
+
+/* line 22, ../../sass/base/_grid.scss */
+.grid_7_half {
+  width: 76%;
+}
+
+/* line 23, ../../sass/base/_grid.scss */
+.grid_8 {
+  width: 80%;
+}
+
+/* line 24, ../../sass/base/_grid.scss */
+.grid_8_half {
+  width: 86%;
+}
+
+/* line 25, ../../sass/base/_grid.scss */
+.grid_9 {
+  width: 90%;
+}
+
+/* line 26, ../../sass/base/_grid.scss */
+.grid_9_half {
+  width: 96%;
+}
+
+/* line 27, ../../sass/base/_grid.scss */
+.grid_10 {
+  width: 100%;
+}
+
+/* line 29, ../../sass/base/_grid.scss */
+.offset_half {
+  margin-left: 4%;
+}
+
+/* line 30, ../../sass/base/_grid.scss */
+.offset_1 {
+  margin-left: 10%;
+}
+
+/* line 31, ../../sass/base/_grid.scss */
+.offset_1_half {
+  margin-left: 14%;
+}
+
+/* line 32, ../../sass/base/_grid.scss */
+.offset_2 {
+  margin-left: 20%;
+}
+
+/* line 33, ../../sass/base/_grid.scss */
+.offset_2_half {
+  margin-left: 24%;
+}
+
+/* line 34, ../../sass/base/_grid.scss */
+.offset_3 {
+  margin-left: 30%;
+}
+
+/* line 35, ../../sass/base/_grid.scss */
+.offset_3_half {
+  margin-left: 34%;
+}
+
+/* line 36, ../../sass/base/_grid.scss */
+.offset_4 {
+  margin-left: 40%;
+}
+
+/* line 37, ../../sass/base/_grid.scss */
+.offset_4_half {
+  margin-left: 44%;
+}
+
+/* line 38, ../../sass/base/_grid.scss */
+.offset_5 {
+  margin-left: 50%;
+}
+
+/* line 39, ../../sass/base/_grid.scss */
+.offset_5_half {
+  margin-left: 54%;
+}
+
+/* line 40, ../../sass/base/_grid.scss */
+.offset_6 {
+  margin-left: 60%;
+}
+
+/* line 41, ../../sass/base/_grid.scss */
+.offset_6_half {
+  margin-left: 64%;
+}
+
+/* line 42, ../../sass/base/_grid.scss */
+.offset_7 {
+  margin-left: 70%;
+}
+
+/* line 43, ../../sass/base/_grid.scss */
+.offset_7_half {
+  margin-left: 74%;
+}
+
+/* line 44, ../../sass/base/_grid.scss */
+.offset_8 {
+  margin-left: 80%;
+}
+
+/* line 45, ../../sass/base/_grid.scss */
+.offset_8_half {
+  margin-left: 84%;
+}
+
+/* line 46, ../../sass/base/_grid.scss */
+.offset_9 {
+  margin-left: 90%;
+}
+
+/* line 47, ../../sass/base/_grid.scss */
+.offset_9_half {
+  margin-left: 94%;
+}
+
+/* line 49, ../../sass/base/_grid.scss */
+.grid_7 > .grid_6_half {
+  width: 64%;
+}
+
+/* line 50, ../../sass/base/_grid.scss */
+.grid_7 > .grid_9_half {
+  width: 94%;
+}
+
+/* line 52, ../../sass/base/_grid.scss */
+.grid_7 > .offset_half {
+  margin-left: 6%;
+}
+
+/* line 54, ../../sass/base/_grid.scss */
+.grid_b_1 {
+  width: 8.33333333333333%;
+}
+
+/* line 55, ../../sass/base/_grid.scss */
+.grid_b_2 {
+  width: 16.66666666666666%;
+}
+
+/* line 56, ../../sass/base/_grid.scss */
+.grid_b_3 {
+  width: 24.99999999999999%;
+}
+
+/* line 57, ../../sass/base/_grid.scss */
+.grid_b_4 {
+  width: 33.33333333333332%;
+}
+
+/* line 58, ../../sass/base/_grid.scss */
+.grid_b_5 {
+  width: 41.66666666666665%;
+}
+
+/* line 59, ../../sass/base/_grid.scss */
+.grid_b_6 {
+  width: 49.99999999999998%;
+}
+
+/* line 60, ../../sass/base/_grid.scss */
+.grid_b_7 {
+  width: 58.33333333333331%;
+}
+
+/* line 61, ../../sass/base/_grid.scss */
+.grid_b_8 {
+  width: 66.66666666666664%;
+}
+
+/* line 62, ../../sass/base/_grid.scss */
+.grid_b_9 {
+  width: 74.99999999999997%;
+}
+
+/* line 63, ../../sass/base/_grid.scss */
+.grid_b_10 {
+  width: 83.3333333333333%;
+}
+
+/* line 64, ../../sass/base/_grid.scss */
+.grid_b_11 {
+  width: 91.66666666666663%;
+}
+
+/* line 65, ../../sass/base/_grid.scss */
+.grid_b_12 {
+  width: 100%;
+}
+
+/* line 67, ../../sass/base/_grid.scss */
+.offset_b_1 {
+  margin-left: 8.33333333333333%;
+}
+
+/* line 68, ../../sass/base/_grid.scss */
+.offset_b_2 {
+  margin-left: 16.66666666666666%;
+}
+
+/* line 69, ../../sass/base/_grid.scss */
+.offset_b_3 {
+  margin-left: 24.99999999999999%;
+}
+
+/* line 70, ../../sass/base/_grid.scss */
+.offset_b_4 {
+  margin-left: 33.33333333333332%;
+}
+
+/* line 71, ../../sass/base/_grid.scss */
+.offset_b_5 {
+  margin-left: 41.66666666666665%;
+}
+
+/* line 72, ../../sass/base/_grid.scss */
+.offset_b_6 {
+  margin-left: 49.99999999999998%;
+}
+
+/* line 73, ../../sass/base/_grid.scss */
+.offset_b_7 {
+  margin-left: 58.33333333333331%;
+}
+
+/* line 74, ../../sass/base/_grid.scss */
+.offset_b_8 {
+  margin-left: 66.66666666666664%;
+}
+
+/* line 75, ../../sass/base/_grid.scss */
+.offset_b_9 {
+  margin-left: 74.99999999999997%;
+}
+
+/* line 76, ../../sass/base/_grid.scss */
+.offset_b_10 {
+  margin-left: 83.3333333333333%;
+}
+
+/* line 77, ../../sass/base/_grid.scss */
+.offset_b_11 {
+  margin-left: 91.66666666666663%;
+}
+
+/* line 109, ../../sass/base/_grid.scss */
+.grid_1,
+.grid_1_half,
+.grid_b_1,
+.grid_2,
+.grid_2_half,
+.grid_b_2,
+.grid_3,
+.grid_3_half,
+.grid_b_3,
+.grid_4,
+.grid_4_half,
+.grid_b_4,
+.grid_5,
+.grid_5_half,
+.grid_b_5,
+.grid_6,
+.grid_6_half,
+.grid_b_6,
+.grid_7,
+.grid_7_half,
+.grid_b_7,
+.grid_8,
+.grid_8_half,
+.grid_b_8,
+.grid_9,
+.grid_9_half,
+.grid_b_9,
+.grid_10,
+.grid_b_10,
+.grid_b_11,
+.grid_b_12 {
+  padding-right: 1%;
+  padding-left: 1%;
+  float: left;
+  display: block;
+}
+
+/* line 116, ../../sass/base/_grid.scss */
+.alpha {
+  padding-left: 0;
+}
+
+/* line 117, ../../sass/base/_grid.scss */
+.omega {
+  padding-right: 0;
+}
+
+/* line 119, ../../sass/base/_grid.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 119, ../../sass/base/_grid.scss */
+.container:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 119, ../../sass/base/_grid.scss */
+* html .clearfix, *:first-child + html .clearfix {
+  zoom: 1;
+}
+
+/* line 1, ../../sass/base/_buttons.scss */
+a.btn, .btn {
+  background: #3399cc;
+  color: #fff;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  height: 44px;
+  line-height: 42px;
+  padding: 2px 20px 0;
+  text-decoration: none;
+}
+
+/* line 13, ../../sass/base/_buttons.scss */
+a.btn:hover {
+  color: #fff;
+}
+
+/* line 17, ../../sass/base/_buttons.scss */
+a.btn.orange, .btn.orange {
+  background-color: #e48325;
+}
+
+/* line 21, ../../sass/base/_buttons.scss */
+a.btn.green, .btn.green {
+  background-color: #99cc33;
+}
+
+/* line 25, ../../sass/base/_buttons.scss */
+a.btn.black, .btn.black {
+  background-color: #222222;
+}
+
+/* line 29, ../../sass/base/_buttons.scss */
+a.btn.white, .btn.white {
+  background-color: #fff;
+  color: #222222;
+}
+
+/* line 34, ../../sass/base/_buttons.scss */
+a.btn.transparent, .btn.transparent {
+  background-color: transparent;
+}
+
+/* line 38, ../../sass/base/_buttons.scss */
+a.btn.small, .btn.small {
+  font-size: 18px;
+  height: 32px;
+  line-height: 29px;
+  padding: 3px 15px 0;
+}
+
+/* line 45, ../../sass/base/_buttons.scss */
+a.btn.icon, .btn.icon {
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0;
+  width: 44px;
+}
+
+/* line 52, ../../sass/base/_buttons.scss */
+a.btn.icon.small, .btn.icon.small {
+  width: 32px;
+}
+
+/* line 56, ../../sass/base/_buttons.scss */
+a.btn.icon-left, .btn.icon-left {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+}
+
+/* line 62, ../../sass/base/_buttons.scss */
+a.btn.icon-right, .btn.icon-right {
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  line-height: 23px;
+  padding-right: 34px;
+}
+
+/* line 7, ../../sass/projects/bc-giftguide.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 9, ../../sass/projects/bc-giftguide.scss */
+.body {
+  background: #efefef;
+  margin-top: -139px;
+  padding-bottom: 100px;
+  width: 100%;
+  min-width: 100%;
+}
+
+/* line 10, ../../sass/projects/bc-giftguide.scss */
+.body div {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+/* line 12, ../../sass/projects/bc-giftguide.scss */
+.foot {
+  margin-top: 0;
+}
+
+/* line 13, ../../sass/projects/bc-giftguide.scss */
+.foot section {
+  float: none;
+}
+
+/* line 15, ../../sass/projects/bc-giftguide.scss */
+.hero {
+  background-color: #c2c2c2;
+  background-image: url("http://promoimages.backcountry.com.s3.amazonaws.com/promo_upload/bcs/2013/gift-guide/LP_Header_1.jpg");
+  background-position: center top;
+  background-size: cover;
+  display: block;
+  float: left;
+  height: 630px;
+  margin-bottom: -200px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 29, ../../sass/projects/bc-giftguide.scss */
+.hero .container {
+  color: #fff;
+  padding-left: 400px;
+  padding-top: 170px;
+}
+
+/* line 35, ../../sass/projects/bc-giftguide.scss */
+.hero h1 {
+  font-size: 60px;
+  line-height: 50px;
+  margin: 0 0 40px 0;
+}
+
+/* line 41, ../../sass/projects/bc-giftguide.scss */
+.hero h2 {
+  margin-bottom: 0;
+}
+
+/* line 45, ../../sass/projects/bc-giftguide.scss */
+.hero p.mouse {
+  text-align: right;
+}
+
+/* line 49, ../../sass/projects/bc-giftguide.scss */
+.hero p.mouse:after {
+  background: url("http://promoimages.backcountry.com.s3.amazonaws.com/promo_upload/bcs/2013/gift-guide/ico-18-camera-white.png") center center no-repeat;
+  display: inline-block;
+  content: '';
+  margin: 0 10px 0 5px;
+  opacity: .4;
+  position: relative;
+  top: -2px;
+  float: right;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 62, ../../sass/projects/bc-giftguide.scss */
+.gift-nav-wrapper {
+  background-color: rgba(34, 34, 34, 0);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 67, ../../sass/projects/bc-giftguide.scss */
+.gift-nav-wrapper.fixed {
+  background-color: #222222;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* line 75, ../../sass/projects/bc-giftguide.scss */
+ul.gift-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 83, ../../sass/projects/bc-giftguide.scss */
+ul.gift-nav li {
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 20%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 94, ../../sass/projects/bc-giftguide.scss */
+ul.gift-nav li.active a {
+  background-color: #fff;
+  color: #222222;
+}
+
+/* line 99, ../../sass/projects/bc-giftguide.scss */
+ul.gift-nav li:first-child {
+  border-left: none;
+}
+
+/* line 103, ../../sass/projects/bc-giftguide.scss */
+ul.gift-nav li:last-child {
+  border-right: none;
+}
+
+/* line 107, ../../sass/projects/bc-giftguide.scss */
+ul.gift-nav li a {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 112, ../../sass/projects/bc-giftguide.scss */
+li.him1:hover a {
+  background: #81d4e6;
+}
+
+/* line 115, ../../sass/projects/bc-giftguide.scss */
+li.him2:hover a {
+  background: #fec56b;
+}
+
+/* line 118, ../../sass/projects/bc-giftguide.scss */
+li.her1:hover a {
+  background: #ff4c55;
+}
+
+/* line 121, ../../sass/projects/bc-giftguide.scss */
+li.her2:hover a {
+  background: #c2bcde;
+}
+
+/* line 124, ../../sass/projects/bc-giftguide.scss */
+li.family:hover a {
+  background: #3eac4b;
+}
+
+/* line 128, ../../sass/projects/bc-giftguide.scss */
+.persona-hero {
+  background-color: #222222;
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  float: left;
+  height: 300px;
+  margin: 10px 0;
+  position: relative;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 140, ../../sass/projects/bc-giftguide.scss */
+.persona-hero div.overlay {
+  background: rgba(34, 34, 34, 0.6);
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  opacity: 1;
+  padding-top: 110px;
+  position: relative;
+  text-align: center;
+  height: 100%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  visibility: visible;
+  width: 100%;
+}
+
+/* line 155, ../../sass/projects/bc-giftguide.scss */
+.persona-hero div.overlay:hover {
+  background: rgba(34, 34, 34, 0.8);
+}
+
+/* line 159, ../../sass/projects/bc-giftguide.scss */
+.persona.active .persona-hero div.overlay {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* line 164, ../../sass/projects/bc-giftguide.scss */
+.persona-hero div h3 {
+  margin-top: 0;
+}
+
+/* line 168, ../../sass/projects/bc-giftguide.scss */
+.persona-hero div h1 {
+  line-height: 40px;
+  margin: 0;
+}
+
+/* line 173, ../../sass/projects/bc-giftguide.scss */
+.him1 .persona-hero {
+  background-image: url("http://promoimages.backcountry.com.s3.amazonaws.com/promo_upload/bcs/2013/gift-guide/male-core.jpg");
+}
+
+/* line 177, ../../sass/projects/bc-giftguide.scss */
+.him2 .persona-hero {
+  background-image: url("http://promoimages.backcountry.com.s3.amazonaws.com/promo_upload/bcs/2013/gift-guide/male-casual.jpg");
+}
+
+/* line 181, ../../sass/projects/bc-giftguide.scss */
+.her1 .persona-hero {
+  background-image: url("http://promoimages.backcountry.com.s3.amazonaws.com/promo_upload/bcs/2013/gift-guide/female-core.jpg");
+}
+
+/* line 185, ../../sass/projects/bc-giftguide.scss */
+.her2 .persona-hero {
+  background-image: url("http://promoimages.backcountry.com.s3.amazonaws.com/promo_upload/bcs/2013/gift-guide/female-casual.jpg");
+}
+
+/* line 189, ../../sass/projects/bc-giftguide.scss */
+.family .persona-hero {
+  background-image: url("http://promoimages.backcountry.com.s3.amazonaws.com/promo_upload/bcs/2013/gift-guide/family.jpg");
+}
+
+/* line 193, ../../sass/projects/bc-giftguide.scss */
+.persona-hero:first-child {
+  margin-top: 20px;
+}
+
+/* line 197, ../../sass/projects/bc-giftguide.scss */
+.persona.active .persona-hero {
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+/* line 202, ../../sass/projects/bc-giftguide.scss */
+.persona-hero .trigger {
+  background: #222222;
+  -moz-border-radius-topleft: 20px;
+  -webkit-border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  -webkit-border-top-right-radius: 20px;
+  border-top-right-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-box-shadow: 0 0 16px rgba(34, 34, 34, 0.6);
+  -moz-box-shadow: 0 0 16px rgba(34, 34, 34, 0.6);
+  box-shadow: 0 0 16px rgba(34, 34, 34, 0.6);
+  display: block;
+  height: 20px;
+  left: 625px;
+  opacity: 0;
+  position: absolute;
+  top: 250px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 20px;
+}
+
+/* line 219, ../../sass/projects/bc-giftguide.scss */
+.persona-hero .trigger:before {
+  background: url("http://promoimages.backcountry.com.s3.amazonaws.com/promo_upload/bcs/2013/gift-guide/ico-12-plus-white.png") center center no-repeat;
+  content: '';
+  display: block;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 231, ../../sass/projects/bc-giftguide.scss */
+.trigger.right {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 235, ../../sass/projects/bc-giftguide.scss */
+.trigger.up {
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/* line 239, ../../sass/projects/bc-giftguide.scss */
+.trigger.left {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/* line 243, ../../sass/projects/bc-giftguide.scss */
+.persona-hero .trigger.active {
+  opacity: .8;
+}
+
+/* line 247, ../../sass/projects/bc-giftguide.scss */
+.persona-hero .trigger.active:hover {
+  opacity: 1;
+}
+
+/* line 251, ../../sass/projects/bc-giftguide.scss */
+.persona-hero .close {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+}
+
+/* line 261, ../../sass/projects/bc-giftguide.scss */
+.persona-hero .close.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 266, ../../sass/projects/bc-giftguide.scss */
+.masonry {
+  display: none;
+}
+
+/* line 270, ../../sass/projects/bc-giftguide.scss */
+.persona.active .masonry {
+  display: block;
+}
+
+/* line 274, ../../sass/projects/bc-giftguide.scss */
+.masonry ul.filter {
+  list-style: none;
+  margin: 0 0 15px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 282, ../../sass/projects/bc-giftguide.scss */
+.masonry ul.filter li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 5px;
+}
+
+/* line 288, ../../sass/projects/bc-giftguide.scss */
+.masonry ul.filter li a {
+  color: #222222;
+  display: block;
+  border: 1px solid #c2c2c2;
+  height: 32px;
+  line-height: 30px;
+  padding: 2px 0 0;
+  text-align: center;
+  width: 150px;
+}
+
+/* line 299, ../../sass/projects/bc-giftguide.scss */
+.masonry ul.filter li.active a {
+  background: #222222;
+  border: 1px solid #222222;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 306, ../../sass/projects/bc-giftguide.scss */
+.masonry-wrapper {
+  overflow: visible !important;
+}
+
+/* line 310, ../../sass/projects/bc-giftguide.scss */
+.masonry .item {
+  background-color: #fff;
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66000000', endColorstr='#1a000000',GradientType=1 );
+  display: inline-block;
+  height: 235px;
+  overflow: hidden;
+  width: 235px;
+  margin: 5px;
+}
+
+/* line 321, ../../sass/projects/bc-giftguide.scss */
+.masonry .item img {
+  width: 100%;
+}
+
+/* line 325, ../../sass/projects/bc-giftguide.scss */
+.item.h2 {
+  height: 480px;
+}
+
+/* line 329, ../../sass/projects/bc-giftguide.scss */
+.item.w2 {
+  width: 480px;
+}
+
+/* line 333, ../../sass/projects/bc-giftguide.scss */
+.masonry .item .item-details {
+  background: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  display: block;
+  float: left;
+  height: 100%;
+  opacity: 0;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+  width: 100%;
+}
+
+/* line 348, ../../sass/projects/bc-giftguide.scss */
+.masonry .item.h2 .item-details {
+  height: 50%;
+}
+
+/* line 352, ../../sass/projects/bc-giftguide.scss */
+.masonry .item.w2 .item-details {
+  width: 50%;
+}
+
+/* line 356, ../../sass/projects/bc-giftguide.scss */
+.masonry .item .item-details.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 9999;
+}
+
+/* line 362, ../../sass/projects/bc-giftguide.scss */
+.masonry .item .item-details h3 {
+  line-height: 1;
+  margin: 0;
+  font-size: 20px;
+}
+
+/* line 368, ../../sass/projects/bc-giftguide.scss */
+.masonry .item .item-details p.price {
+  margin: 10px 0;
+}
+
+/* line 372, ../../sass/projects/bc-giftguide.scss */
+.masonry .item .item-details p.description {
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 0;
+}
+
+/* line 378, ../../sass/projects/bc-giftguide.scss */
+.masonry .item .item-details .btn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+/* line 385, ../../sass/projects/bc-giftguide.scss */
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+/* line 394, ../../sass/projects/bc-giftguide.scss */
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+
+/* line 402, ../../sass/projects/bc-giftguide.scss */
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+/* line 410, ../../sass/projects/bc-giftguide.scss */
+.masonry .item.article .article-details {
+  background: #222222;
+  bottom: 0;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  height: 52px;
+  position: absolute;
+  padding: 15px 10px 10px 15px;
+  width: 100%;
+}
+
+/* line 422, ../../sass/projects/bc-giftguide.scss */
+.masonry .item.article a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 428, ../../sass/projects/bc-giftguide.scss */
+.masonry .item.article .article-details .btn {
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  right: 15px;
+  top: 15px;
+}
+
+/* line 436, ../../sass/projects/bc-giftguide.scss */
+.masonry .item.gc .item-details, .masonry .item.gc .item-details.active {
+  background: transparent;
+  color: #fff;
+  opacity: 1;
+  padding-top: 40px;
+  visibility: visible;
+  z-index: 9999;
+}
+
+/* line 445, ../../sass/projects/bc-giftguide.scss */
+.masonry .item.gc .item-details h2 {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+/* line 450, ../../sass/projects/bc-giftguide.scss */
+.masonry .item.gc .item-details p {
+  font-size: 24px;
+  line-height: 1.15;
+}
+
+/* line 455, ../../sass/projects/bc-giftguide.scss */
+.video-wrapper {
+  background: rgba(34, 34, 34, 0.8);
+  display: none;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* line 466, ../../sass/projects/bc-giftguide.scss */
+.video-wrapper iframe {
+  position: absolute;
+  left: 50%;
+  margin: -253px 0 0 -450px;
+  top: 50%;
+}
+
+/* line 473, ../../sass/projects/bc-giftguide.scss */
+.video-wrapper .btn.close {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -297px 0 0 450px;
+}
+
+/* line 481, ../../sass/projects/bc-giftguide.scss */
+.no-cursor {
+  cursor: default !important;
+}
+
+/* Triggers */
+/* line 487, ../../sass/projects/bc-giftguide.scss */
+.trigger.SWL0605 {
+  top: 23px;
+  left: 34px;
+}
+
+/* line 488, ../../sass/projects/bc-giftguide.scss */
+.trigger.ARC3668 {
+  top: 100px;
+  left: 270px;
+}
+
+/* line 489, ../../sass/projects/bc-giftguide.scss */
+.trigger.SUN0056 {
+  top: 16px;
+  left: 380px;
+}
+
+/* line 490, ../../sass/projects/bc-giftguide.scss */
+.trigger.CRN0023 {
+  top: 61px;
+  left: 423px;
+}
+
+/* line 491, ../../sass/projects/bc-giftguide.scss */
+.trigger.BCC0344 {
+  top: 64px;
+  left: 658px;
+}
+
+/* line 492, ../../sass/projects/bc-giftguide.scss */
+.trigger.JET0037 {
+  top: 30px;
+  left: 527px;
+}
+
+/* line 493, ../../sass/projects/bc-giftguide.scss */
+.trigger.GSI0150 {
+  top: 85px;
+  left: 200px;
+}
+
+/* line 494, ../../sass/projects/bc-giftguide.scss */
+.trigger.ANO0198 {
+  top: 184px;
+  left: 119px;
+}
+
+/* line 495, ../../sass/projects/bc-giftguide.scss */
+.trigger.BCC0339 {
+  top: 152px;
+  left: 213px;
+}
+
+/* line 496, ../../sass/projects/bc-giftguide.scss */
+.trigger.DNF3142 {
+  top: 200px;
+  left: 470px;
+}
+
+/* line 497, ../../sass/projects/bc-giftguide.scss */
+.trigger.NRA0362 {
+  top: 163px;
+  left: 600px;
+}
+
+/* line 498, ../../sass/projects/bc-giftguide.scss */
+.trigger.PAT3184 {
+  top: 218px;
+  left: 820px;
+}
+
+/* line 499, ../../sass/projects/bc-giftguide.scss */
+.trigger.MAR2287 {
+  top: 270px;
+  left: 170px;
+}
+
+/* line 500, ../../sass/projects/bc-giftguide.scss */
+.trigger.ROS0923 {
+  top: 307px;
+  left: 417px;
+}
+
+/* line 501, ../../sass/projects/bc-giftguide.scss */
+.trigger.ION0007 {
+  top: 367px;
+  left: 531px;
+}
+
+/* line 502, ../../sass/projects/bc-giftguide.scss */
+.trigger.GSI2273 {
+  top: 380px;
+  left: 730px;
+}
+
+/* line 503, ../../sass/projects/bc-giftguide.scss */
+.trigger.DAK3536 {
+  top: 435px;
+  left: 800px;
+}
+
+/* line 504, ../../sass/projects/bc-giftguide.scss */
+.trigger.PIS0085 {
+  top: 475px;
+  left: 707px;
+}
+
+/* line 505, ../../sass/projects/bc-giftguide.scss */
+.trigger.POC0186 {
+  top: 400px;
+  left: 316px;
+}
+
+/* line 506, ../../sass/projects/bc-giftguide.scss */
+.trigger.FLG0021 {
+  top: 511px;
+  left: 401px;
+}
+
+/* line 507, ../../sass/projects/bc-giftguide.scss */
+.trigger.ICE1183 {
+  top: 500px;
+  left: 177px;
+}
+
+/* line 508, ../../sass/projects/bc-giftguide.scss */
+.trigger.BLD3414 {
+  top: 420px;
+  left: 78px;
+}
+
+/* line 510, ../../sass/projects/bc-giftguide.scss */
+.trigger.SOG000A-1 {
+  top: 75px;
+  left: 36px;
+}
+
+/* line 511, ../../sass/projects/bc-giftguide.scss */
+.trigger.SAG0052 {
+  top: 36px;
+  left: 110px;
+}
+
+/* line 512, ../../sass/projects/bc-giftguide.scss */
+.trigger.SAG0001 {
+  top: 75px;
+  left: 184px;
+}
+
+/* line 513, ../../sass/projects/bc-giftguide.scss */
+.trigger.PNN001U-1 {
+  top: 36px;
+  left: 264px;
+}
+
+/* line 514, ../../sass/projects/bc-giftguide.scss */
+.trigger.PNN001U-2 {
+  top: 268px;
+  left: 250px;
+}
+
+/* line 515, ../../sass/projects/bc-giftguide.scss */
+.trigger.BLD3482 {
+  top: 34px;
+  left: 373px;
+}
+
+/* line 516, ../../sass/projects/bc-giftguide.scss */
+.trigger.NIX0956 {
+  top: 76px;
+  left: 530px;
+}
+
+/* line 517, ../../sass/projects/bc-giftguide.scss */
+.trigger.OAK3363 {
+  top: 20px;
+  left: 596px;
+}
+
+/* line 518, ../../sass/projects/bc-giftguide.scss */
+.trigger.SOG000A-2 {
+  top: 111px;
+  left: 717px;
+}
+
+/* line 519, ../../sass/projects/bc-giftguide.scss */
+.trigger.PIS0163 {
+  top: 90px;
+  left: 774px;
+}
+
+/* line 520, ../../sass/projects/bc-giftguide.scss */
+.trigger.ARC3510 {
+  top: 200px;
+  left: 828px;
+}
+
+/* line 521, ../../sass/projects/bc-giftguide.scss */
+.trigger.TNF6711 {
+  top: 195px;
+  left: 599px;
+}
+
+/* line 522, ../../sass/projects/bc-giftguide.scss */
+.trigger.BUR6159 {
+  top: 250px;
+  left: 500px;
+}
+
+/* line 523, ../../sass/projects/bc-giftguide.scss */
+.trigger.CDG0076 {
+  top: 440px;
+  left: 510px;
+}
+
+/* line 524, ../../sass/projects/bc-giftguide.scss */
+.trigger.FLG0050 {
+  top: 522px;
+  left: 370px;
+}
+
+/* line 525, ../../sass/projects/bc-giftguide.scss */
+.trigger.BLD000B {
+  top: 561px;
+  left: 485px;
+}
+
+/* line 526, ../../sass/projects/bc-giftguide.scss */
+.trigger.PAT2670 {
+  top: 432px;
+  left: 908px;
+}
+
+/* line 527, ../../sass/projects/bc-giftguide.scss */
+.trigger.SOG000A-3 {
+  top: 468px;
+  left: 926px;
+}
+
+/* line 529, ../../sass/projects/bc-giftguide.scss */
+.trigger.OAK3838 {
+  top: 65px;
+  left: 216px;
+}
+
+/* line 530, ../../sass/projects/bc-giftguide.scss */
+.trigger.NBW0028 {
+  top: 157px;
+  left: 205px;
+}
+
+/* line 531, ../../sass/projects/bc-giftguide.scss */
+.trigger.PAT3320 {
+  top: 188px;
+  left: 300px;
+}
+
+/* line 532, ../../sass/projects/bc-giftguide.scss */
+.trigger.OAK3583 {
+  top: 19px;
+  left: 603px;
+}
+
+/* line 533, ../../sass/projects/bc-giftguide.scss */
+.trigger.SWL0779 {
+  top: 76px;
+  left: 595px;
+}
+
+/* line 534, ../../sass/projects/bc-giftguide.scss */
+.trigger.ATL0096 {
+  top: 90px;
+  left: 890px;
+}
+
+/* line 535, ../../sass/projects/bc-giftguide.scss */
+.trigger.ARM0524 {
+  top: 74px;
+  left: 380px;
+}
+
+/* line 536, ../../sass/projects/bc-giftguide.scss */
+.trigger.MTB0219 {
+  top: 150px;
+  left: 730px;
+}
+
+/* line 537, ../../sass/projects/bc-giftguide.scss */
+.trigger.COL4402 {
+  top: 255px;
+  left: 250px;
+}
+
+/* line 538, ../../sass/projects/bc-giftguide.scss */
+.trigger.PRA1717 {
+  top: 243px;
+  left: 427px;
+}
+
+/* line 539, ../../sass/projects/bc-giftguide.scss */
+.trigger.SAL2207 {
+  top: 216px;
+  left: 487px;
+}
+
+/* line 540, ../../sass/projects/bc-giftguide.scss */
+.trigger.OAK1818 {
+  top: 414px;
+  left: 509px;
+}
+
+/* line 541, ../../sass/projects/bc-giftguide.scss */
+.trigger.PAT2476 {
+  top: 226px;
+  left: 625px;
+}
+
+/* line 542, ../../sass/projects/bc-giftguide.scss */
+.trigger.HYH0719 {
+  top: 277px;
+  left: 866px;
+}
+
+/* line 543, ../../sass/projects/bc-giftguide.scss */
+.trigger.ARC3625 {
+  top: 279px;
+  left: 66px;
+}
+
+/* line 544, ../../sass/projects/bc-giftguide.scss */
+.trigger.MAR2220 {
+  top: 352px;
+  left: 223px;
+}
+
+/* line 545, ../../sass/projects/bc-giftguide.scss */
+.trigger.TNF8813 {
+  top: 493px;
+  left: 289px;
+}
+
+/* line 546, ../../sass/projects/bc-giftguide.scss */
+.trigger.ARC3586 {
+  top: 450px;
+  left: 767px;
+}
+
+/* line 547, ../../sass/projects/bc-giftguide.scss */
+.trigger.OSP0221 {
+  top: 478px;
+  left: 845px;
+}
+
+/* line 548, ../../sass/projects/bc-giftguide.scss */
+.trigger.NRA0409 {
+  top: 63px;
+  left: 519px;
+}
+
+/* line 549, ../../sass/projects/bc-giftguide.scss */
+.trigger.MND0001 {
+  top: 208px;
+  left: 48px;
+}
+
+/* line 551, ../../sass/projects/bc-giftguide.scss */
+.trigger.ARC3614 {
+  top: 152px;
+  left: 137px;
+}
+
+/* line 552, ../../sass/projects/bc-giftguide.scss */
+.trigger.COA2950 {
+  top: 54px;
+  left: 259px;
+}
+
+/* line 553, ../../sass/projects/bc-giftguide.scss */
+.trigger.WLS0011 {
+  top: 72px;
+  left: 400px;
+}
+
+/* line 554, ../../sass/projects/bc-giftguide.scss */
+.trigger.SHP0109 {
+  top: 57px;
+  left: 534px;
+}
+
+/* line 555, ../../sass/projects/bc-giftguide.scss */
+.trigger.STA0019 {
+  top: 130px;
+  left: 466px;
+}
+
+/* line 556, ../../sass/projects/bc-giftguide.scss */
+.trigger.NIX1546 {
+  top: 137px;
+  left: 573px;
+}
+
+/* line 557, ../../sass/projects/bc-giftguide.scss */
+.trigger.SPD2113 {
+  top: 145px;
+  left: 764px;
+}
+
+/* line 558, ../../sass/projects/bc-giftguide.scss */
+.trigger.TNF8919 {
+  top: 184px;
+  left: 817px;
+}
+
+/* line 559, ../../sass/projects/bc-giftguide.scss */
+.trigger.SPY0312 {
+  top: 189px;
+  left: 268px;
+}
+
+/* line 560, ../../sass/projects/bc-giftguide.scss */
+.trigger.PNN0069 {
+  top: 280px;
+  left: 359px;
+}
+
+/* line 561, ../../sass/projects/bc-giftguide.scss */
+.trigger.SRL0173 {
+  top: 230px;
+  left: 607px;
+}
+
+/* line 562, ../../sass/projects/bc-giftguide.scss */
+.trigger.PAT2669 {
+  top: 354px;
+  left: 727px;
+}
+
+/* line 563, ../../sass/projects/bc-giftguide.scss */
+.trigger.SWL0640 {
+  top: 332px;
+  left: 291px;
+}
+
+/* line 564, ../../sass/projects/bc-giftguide.scss */
+.trigger.KAV0453 {
+  top: 462px;
+  left: 200px;
+}
+
+/* line 565, ../../sass/projects/bc-giftguide.scss */
+.trigger.WIC000H {
+  top: 394px;
+  left: 332px;
+}
+
+/* line 566, ../../sass/projects/bc-giftguide.scss */
+.trigger.MAR2462 {
+  top: 464px;
+  left: 393px;
+}
+
+/* line 567, ../../sass/projects/bc-giftguide.scss */
+.trigger.TNF8914 {
+  top: 472px;
+  left: 696px;
+}
+
+/* line 568, ../../sass/projects/bc-giftguide.scss */
+.trigger.RCV0001 {
+  top: 513px;
+  left: 750px;
+}
+
+/* line 569, ../../sass/projects/bc-giftguide.scss */
+.trigger.SPC0716 {
+  top: 393px;
+  left: 876px;
+}
+
+/* line 571, ../../sass/projects/bc-giftguide.scss */
+.trigger.BUR4006 {
+  top: 75px;
+  left: 18px;
+}
+
+/* line 572, ../../sass/projects/bc-giftguide.scss */
+.trigger.COL4456 {
+  top: 20px;
+  left: 400px;
+}
+
+/* line 573, ../../sass/projects/bc-giftguide.scss */
+.trigger.VLC9AJ3 {
+  top: 45px;
+  left: 200px;
+}
+
+/* line 574, ../../sass/projects/bc-giftguide.scss */
+.trigger.STD0003 {
+  top: 250px;
+  left: 450px;
+}
+
+/* line 575, ../../sass/projects/bc-giftguide.scss */
+.trigger.ATO0513 {
+  top: 225px;
+  left: 735px;
+}
+
+/* line 576, ../../sass/projects/bc-giftguide.scss */
+.trigger.TNF6452 {
+  top: 104px;
+  left: 900px;
+}
+
+/* line 577, ../../sass/projects/bc-giftguide.scss */
+.trigger.DYN0381 {
+  top: 274px;
+  left: 718px;
+}
+
+/* line 578, ../../sass/projects/bc-giftguide.scss */
+.trigger.SWL0651 {
+  top: 475px;
+  left: 861px;
+}
+
+/* line 579, ../../sass/projects/bc-giftguide.scss */
+.trigger.SNC0095 {
+  top: 500px;
+  left: 700px;
+}
+
+/* line 580, ../../sass/projects/bc-giftguide.scss */
+.trigger.GIR0383 {
+  top: 550px;
+  left: 650px;
+}
+
+/* line 581, ../../sass/projects/bc-giftguide.scss */
+.trigger.EMU0227 {
+  top: 413px;
+  left: 477px;
+}
+
+/* line 582, ../../sass/projects/bc-giftguide.scss */
+.trigger.BUR6133 {
+  top: 375px;
+  left: 253px;
+}
+
+/* line 583, ../../sass/projects/bc-giftguide.scss */
+.trigger.COL3297 {
+  top: 450px;
+  left: 55px;
+}

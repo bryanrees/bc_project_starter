@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>Comments</title>
+  
+  <!-- Community Dependencies -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="../stylesheets/base.css" />  
+  <link rel="stylesheet" href="../stylesheets/community-base.css" />  
+  <link rel="stylesheet" href="../stylesheets/animate.min.css">
+  <script src="../js/jquery.dotdotdot.min.js"></script>  
+  <script src="../js/community-base.js"></script>
+  
+  <!-- Component Display Dependencies -->
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="../stylesheets/prettify.css" />
+  <link rel="stylesheet" href="../stylesheets/component.css" />
+</head>
+<body>
+  
+  <div class="container">
+    
+    <div class="grid_2_half">
+      <ul class="menu">
+        <li class="heading">Variables</li>
+        <li><a href="color.html">Color</a></li>
+        <li><a href="type.html">Type</a></li>
+        <li class="heading">Mixins</li>
+        <li><a href="#">Triangles</a></li>
+        <li class="heading">Patterns</li>
+        <li><a href="#">Buttons</a></li>
+        <li><a href="#">Forms</a></li>
+        <li><a href="#">Grid</a></li>
+        <li><a href="tooltip.html">Tooltips</a></li>
+        <li class="heading">Components</li>
+        <li class="active"><a href="">Comments</a></li>
+        <li><a href="#">Post</a></li>
+        <li><a href="">Product Listing</a></li>
+      </ul>
+    </div>
+    
+    <div class="grid_7 offset_half">
+      
+      <div class="grid_10 alpha omega wiki-head">
+        
+        <p>Components /</p>
+        <h2>Comments</h2>
+        <pre class="prettyprint">@import "comments"</pre>
+        <hr style="margin-bottom:40px;" />
+
+      </div>
+    
+    <div class="grid_9_half offset_half alpha omega">
+      
+      <div class="post">
+        <div class="post-header">
+          <div class="avatar" style="background-image:url('http://iris.backcountry.com/image/view/p487473/440/440')">
+            <!-- link to user's profile -->
+            <a href="http://www.backcountry.com/profile/Luke-Molas/5652025"></a>
+            <!-- follow button -->
+            <div class="follow"></div>
+            <div class="tooltip mouse animated">Follow Luke Molas</div>
+          </div><!-- .avatar -->
+          <h4>Luke Molas</h4>
+          <span class="mouse">October 3, 2013</span>
+        </div><!-- .post-header -->
+        <div class="post-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare suscipit libero, sit amet cursus lacus fermentum eu. Sed hendrerit mauris lorem, sed mollis neque malesuada vitae. Aliquam lobortis ipsum eget sapien congue, sed accumsan nibh fringilla. In ultricies dui in ornare semper. Nulla a nibh a tortor accumsan sagittis. Praesent ac eleifend mi, nec vestibulum arcu. Maecenas tortor sem, tincidunt vitae bibendum pulvinar, auctor vehicula tortor. In porta et purus quis aliquet.</p>
+          <div class="helpful-wrapper">  
+            <div class="helpful-votes">
+              <div class="helpful"></div>
+            </div><!-- .helpful-votes -->
+            <div class="mouse">Was this comment helpful?</div>
+            <div class="clear"></div>
+          </div><!-- .helpful-wrapper -->
+        </div><!-- .post-content -->
+        <div class="post-menu">
+          <div class="btn icon small transparent" style="background-image:url('../img/ico-12-arrow-down-black.png')"></div>
+          <ul class="options">
+            <li><a href="#">Tweak This</a></li>
+            <li><a href="#">Delete This</a></li>
+          </ul>
+        </div>
+      </div><!-- .post -->
+      
+      <div class="post comment">
+        <div class="avatar" style="background-image:url('http://iris.backcountry.com/image/view/p578977/100/100')">
+          <!-- link to user's profile -->
+          <a href="http://www.backcountry.com/profile/Lexi-D/5301222"></a>
+        </div><!-- .avatar -->
+        <textarea name="" id="" onfocus="value=''">Add a comment...</textarea>
+        <a href="#" class="btn small green">Add Comment</a>
+        <a href="#" class="cancel">Cancel</a>
+        <div class="clear"></div>
+      </div><!-- .post.comment -->
+    
+    </div><!-- .grid_6_half.offset_half -->
+    
+    <div class="grid_10 alpha omega">
+      <pre class="prettyprint linenums">&lt;div class="post"&gt;...&lt;/div&gt; &lt;!-- .post --&gt;
+
+&lt;div class="post comment"&gt;
+  &lt;div class="avatar" style="background-image:url('http://iris.backcountry.com/image/view/p578977/100/100')"&gt;
+    &lt;!-- link to user's profile --&gt;
+    &lt;a href="http://www.backcountry.com/profile/Lexi-D/5301222"&gt;&lt;/a&gt;
+  &lt;/div&gt;&lt;!-- .avatar --&gt;
+  &lt;textarea name="" id="" onfocus="value=''"&gt;Add a comment...&lt;/textarea&gt;
+  &lt;a href="#" class="btn small green"&gt;Add Comment&lt;/a&gt;
+  &lt;a href="#" class="cancel"&gt;Cancel&lt;/a&gt;
+  &lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;!-- .post.comment --&gt;</pre>
+      
+      <hr />
+      <h3>Inline Comments</h3>
+    </div>
+    
+    <div class="grid_6_half offset_half alpha omega">
+      <div class="post inline">
+        <div class="post-header small">
+          <div class="avatar small" style="background-image:url('http://iris.backcountry.com/image/view/p487473/440/440')">
+            <!-- link to user's profile -->
+            <a href="http://www.backcountry.com/profile/Luke-Molas/5652025"></a>
+          </div><!-- .avatar -->
+          <h4>Luke Molas</h4>
+          <span class="mouse">October 3, 2013</span>
+        </div><!-- .post-header -->
+        <div class="post-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare suscipit libero, sit amet cursus lacus fermentum eu.</p>
+          <div class="helpful-wrapper">  
+            <div class="helpful-votes small">
+              <div class="helpful"></div>
+            </div><!-- .helpful-votes -->
+            <div class="mouse">Helpful?</div>
+            <div class="clear"></div>
+          </div><!-- .helpful-wrapper -->
+        </div><!-- .post-content -->
+        <div class="post-menu">
+          <div class="btn icon small transparent" style="background-image:url('../img/ico-12-arrow-down-black.png')"></div>
+          <ul class="options">
+            <li><a href="#">Tweak This</a></li>
+            <li><a href="#">Delete This</a></li>
+          </ul>
+        </div>
+      </div><!-- .post -->
+      
+      <div class="post comment inline">
+        <div class="avatar small" style="background-image:url('http://iris.backcountry.com/image/view/p578977/100/100')">
+          <!-- link to user's profile -->
+          <a href="http://www.backcountry.com/profile/Lexi-D/5301222"></a>
+        </div><!-- .avatar -->
+        <textarea name="" id="" onfocus="value=''">Add a comment...</textarea>
+        <a href="#" class="btn small green">Add Comment</a>
+        <a href="#" class="cancel">Cancel</a>
+        <div class="clear"></div>
+      </div><!-- .post.comment -->
+    </div>
+    
+    <div class="grid_10 alpha omega">
+      <pre class="prettyprint linenums">&lt;div class="post <span class="highlight">inline</span>"&gt;
+  &lt;div class="post-header <span class="highlight">small</span>"&gt;...&lt;/div&gt;&lt;!-- .post-header --&gt;
+  ...
+&lt;/div&gt;&lt;!-- .post.inline --&gt;
+
+&lt;div class="post comment <span class="highlight">inline</span>"&gt;
+  &lt;div class="avatar <span class="highlight">small</span>"&gt;...&lt;/div&gt;&lt;!-- .avatar.small --&gt;
+  ...
+&lt;/div&gt;&lt;!-- .post.comment --&gt;</pre>
+    </div>
+  
+    </div><!-- .grid_7 -->
+  
+  </div><!-- .container -->
+
+  <section class="grid">
+    <div class="container">
+      <img src="../img/grid.png" alt="" />
+    </div>
+  </section>
+
+  <section class="grid-toggle-wrapper">
+    <div class="container">
+      <div class="grid_10">
+        <div class="input-wrapper">
+          <input type="checkbox" name="grid-toggle" class="grid-toggle" id="">Grid On/Off</input>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+
+  $('.grid-toggle').on('click', function () {
+      $('.grid').toggle();
+  });
+
+  </script>
+
+</body>
+</html>

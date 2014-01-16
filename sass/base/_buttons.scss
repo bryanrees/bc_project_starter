@@ -1,0 +1,69 @@
+a.btn, .btn {
+  background:$bc-light-blue;
+  color:#fff;
+  display:inline-block;
+  font-size:24px;
+  font-weight:bold;
+  height:44px;
+  line-height:42px;
+  padding:2px 20px 0;
+  text-decoration:none;
+}
+
+a.btn:hover {
+  color:#fff;
+}
+
+a.btn.orange, .btn.orange {
+  background-color:$bc-orange;
+}
+
+a.btn.green, .btn.green {
+  background-color:$bc-green;
+}
+
+a.btn.black, .btn.black {
+  background-color:$black;
+}
+
+a.btn.white, .btn.white {
+  background-color:#fff;
+  color:$black;
+}
+
+a.btn.transparent, .btn.transparent {
+  background-color:transparent;
+}
+
+a.btn.small, .btn.small {
+  font-size:18px;
+  height:32px;
+  line-height:29px;
+  padding:3px 15px 0;
+}
+
+a.btn.icon, .btn.icon {
+  background-position:center center;
+  background-repeat:no-repeat;
+  padding:0;
+  width:44px;
+}
+
+a.btn.icon.small, .btn.icon.small {
+  width:32px;
+}
+
+a.btn.icon-left, .btn.icon-left {
+  background-position:10px 10px;
+  background-repeat:no-repeat;
+  padding-left:44px;
+}
+
+a.btn.icon-right, .btn.icon-right {
+  background-repeat:no-repeat;
+  background-position:right top;
+  border-top:10px solid transparent;
+  border-right:10px solid transparent;
+  line-height:23px;
+  padding-right:34px;
+}

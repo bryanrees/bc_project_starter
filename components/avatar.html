@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>Avatar</title>
+  
+  <!-- Community Dependencies -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="../stylesheets/base.css" />
+  <link rel="stylesheet" href="../stylesheets/community-base.css" />  
+  <link rel="stylesheet" href="../stylesheets/animate.min.css">  
+  <script src="../js/community-base.js"></script>
+  
+  <!-- Component Display Dependencies -->
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="../stylesheets/prettify.css" />
+  <style type="text/css">
+    body { background:#efefef; padding:40px 100px 100px; }
+    pre { margin:10px 0 20px; }
+    hr { margin-top:40px; }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <h2>Avatar</h2>
+    <pre class="prettyprint">@import "avatar"</pre>
+    
+    <hr style="margin-bottom:40px;" />
+    
+    <div class="avatar follow" style="background-image:url('http://iris.backcountry.com/image/view/p487473/440/440')">
+      <a href="http://www.backcountry.com/profile/Luke-Molas/5652025"></a>
+      <div class="follow"></div>
+      <div class="tooltip mouse animated">Follow Luke Molas</div>
+    </div>
+    <pre class="prettyprint linenums">&lt;div class="avatar" style="background-image:url('http://iris.backcountry.com/image/view/p487473/440/440')"&gt;
+  &lt;!-- link to user's profile --&gt;
+  &lt;a href="http://www.backcountry.com/profile/Luke-Molas/5652025"&gt;&lt;/a&gt;
+  &lt;!-- follow button --&gt;
+  &lt;div class="follow"&gt;&lt;/div&gt;
+  &lt;div class="tooltip mouse animated"&gt;Follow Luke Molas&lt;/div&gt;
+&lt;/div&gt;</pre>
+  
+    <hr />
+    <h3>Sizes</h3>
+  
+    <!-- X-large (profile page) -->
+    <div class="avatar x-large"></div>
+    <pre class="prettyprint">&lt;div class="avatar x-large"&gt;&lt;/div&gt;</pre>
+  
+    <!-- Large (currently unused) -->
+    <div class="avatar large"></div>
+    <pre class="prettyprint">&lt;div class="avatar large"&gt;&lt;/div&gt;</pre>
+  
+    <!-- Default -->
+    <div class="avatar"></div>
+    <pre class="prettyprint">&lt;div class="avatar"&gt;&lt;/div&gt;</pre>
+  
+    <!-- Small (replies) -->
+    <div class="avatar small"></div>
+    <pre class="prettyprint">&lt;div class="avatar small"&gt;&lt;/div&gt;</pre>
+  
+    <hr />
+    <h3>Follow Button States</h3>
+  
+    <div class="avatar">
+      <div class="follow"></div>
+    </div>
+    <pre class="prettyprint linenums">&lt;div class="avatar"&gt;
+  &lt;div class="follow"&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+  
+    <div class="avatar">
+      <div class="follow following"></div>
+    </div>
+    <pre class="prettyprint linenums">&lt;div class="avatar"&gt;
+  &lt;div class="follow following"&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+  </div>
+  
+</body>
+</html>

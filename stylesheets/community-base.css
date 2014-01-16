@@ -1,0 +1,413 @@
+/* line 1, ../sass/community-base/_avatar.scss */
+.avatar {
+  background-image: url("../img/profile-default.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #222;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  -o-border-radius: 80px;
+  border-radius: 80px;
+  cursor: pointer;
+  display: block;
+  height: 60px;
+  position: relative;
+  width: 60px;
+}
+
+/* line 15, ../sass/community-base/_avatar.scss */
+.avatar a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 21, ../sass/community-base/_avatar.scss */
+.avatar.x-large {
+  border: 5px solid #222;
+  height: 160px;
+  width: 160px;
+}
+
+/* line 27, ../sass/community-base/_avatar.scss */
+.avatar.large {
+  height: 80px;
+  width: 80px;
+}
+
+/* line 32, ../sass/community-base/_avatar.scss */
+.avatar.small {
+  height: 50px;
+  width: 50px;
+}
+
+/* line 37, ../sass/community-base/_avatar.scss */
+.avatar.following {
+  border-color: #99cc33;
+}
+
+/* Add Follow Button */
+/* line 43, ../sass/community-base/_avatar.scss */
+.avatar .follow {
+  background-color: #222;
+  background-image: url("../img/ico-12-plus-white.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 22px;
+  left: -12px;
+  margin-top: -11px;
+  position: absolute;
+  top: 50%;
+  width: 22px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 58, ../sass/community-base/_avatar.scss */
+.avatar.large .follow {
+  left: -13px;
+}
+
+/* line 62, ../sass/community-base/_avatar.scss */
+.avatar .follow:hover {
+  background-color: #99cc33;
+}
+
+/* line 66, ../sass/community-base/_avatar.scss */
+.avatar .following {
+  background-color: #99cc33;
+  background-image: url("../img/ico-12-check-black.png");
+}
+
+/* Tooltip Positioning */
+/* line 73, ../sass/community-base/_avatar.scss */
+.avatar .tooltip {
+  top: -13px;
+  left: -1px;
+}
+
+/* line 78, ../sass/community-base/_avatar.scss */
+.avatar.large .tooltip {
+  top: -3px;
+  left: -2px;
+}
+
+/* line 1, ../sass/community-base/_comments.scss */
+.comment {
+  padding: 40px 40px 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 6, ../sass/community-base/_comments.scss */
+.comment .avatar {
+  left: -30px;
+  position: absolute;
+  top: 28px;
+}
+
+/* line 12, ../sass/community-base/_comments.scss */
+.comment textarea + .btn {
+  display: none;
+  float: right;
+  margin: 5px 0 10px;
+}
+
+/* line 18, ../sass/community-base/_comments.scss */
+.comment .btn + .cancel {
+  display: none;
+  float: right;
+  margin: 11px 20px 0 0;
+}
+
+/* line 24, ../sass/community-base/_comments.scss */
+.comment textarea:focus {
+  height: 150px;
+}
+
+/* line 29, ../sass/community-base/_comments.scss */
+.comment textarea:focus + .btn,
+.comment textarea:focus + .btn + .cancel {
+  display: block;
+}
+
+/* line 33, ../sass/community-base/_comments.scss */
+.comment.inline {
+  background: #efefef;
+  padding: 20px 40px 10px;
+}
+
+/* line 38, ../sass/community-base/_comments.scss */
+.comment.inline .avatar {
+  left: -20px;
+  top: 13px;
+}
+
+/* line 1, ../sass/community-base/_helpful.scss */
+.helpful {
+  background: #222222 url("../img/ico-18-thumbsup-white.png") center center no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  height: 32px;
+  position: relative;
+  width: 32px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 12, ../sass/community-base/_helpful.scss */
+.helpful-votes.small .helpful {
+  background: transparent url("../img/ico-18-thumbsup-black.png") center center no-repeat;
+  height: 18px;
+  width: 18px;
+}
+
+/* line 18, ../sass/community-base/_helpful.scss */
+.helpful:hover {
+  background-color: #99cc33;
+}
+
+/* line 22, ../sass/community-base/_helpful.scss */
+.helpful.active {
+  background-image: url("../img/ico-18-thumbsup-black.png");
+  background-color: #99cc33;
+}
+
+/* line 27, ../sass/community-base/_helpful.scss */
+.helpful-vote {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 32px;
+  float: left;
+  position: relative;
+  width: 32px;
+}
+
+/* line 38, ../sass/community-base/_helpful.scss */
+.helpful-votes + .mouse {
+  float: left;
+  left: 10px;
+  overflow: hidden;
+  position: relative;
+  top: 10px;
+}
+
+/* line 46, ../sass/community-base/_helpful.scss */
+.helpful-votes.small + .mouse {
+  left: 5px;
+  top: 2px;
+}
+
+/* line 1, ../sass/community-base/_post.scss */
+.post {
+  background: #fff;
+  border: 1px solid #c2c2c2;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  position: relative;
+  width: 100%;
+}
+
+/* line 11, ../sass/community-base/_post.scss */
+.post .post-header {
+  padding: 40px 40px 30px;
+}
+
+/* line 15, ../sass/community-base/_post.scss */
+.post .post-header.small {
+  padding: 20px 20px 10px 40px;
+}
+
+/* line 19, ../sass/community-base/_post.scss */
+.post .post-header .avatar {
+  left: -30px;
+  position: absolute;
+  top: 24px;
+}
+
+/* line 25, ../sass/community-base/_post.scss */
+.post .post-header.small .avatar {
+  left: -20px;
+  top: 15px;
+}
+
+/* line 30, ../sass/community-base/_post.scss */
+.post .post-header h4 {
+  line-height: .9;
+  margin: 0;
+}
+
+/* line 35, ../sass/community-base/_post.scss */
+.post .post-header.small h4 {
+  font-size: 16px;
+}
+
+/* line 39, ../sass/community-base/_post.scss */
+.post .post-header.inset {
+  min-height: 80px;
+  padding: 20px 20px 12px 80px;
+}
+
+/* line 44, ../sass/community-base/_post.scss */
+.post .post-header.inset .avatar {
+  left: 20px;
+}
+
+/* line 48, ../sass/community-base/_post.scss */
+.post .image img {
+  width: 100%;
+}
+
+/* line 52, ../sass/community-base/_post.scss */
+.post .post-content {
+  padding: 20px 40px 40px;
+}
+
+/* line 56, ../sass/community-base/_post.scss */
+.post.inline .post-content {
+  padding-bottom: 20px;
+}
+
+/* line 60, ../sass/community-base/_post.scss */
+.post-header + .post-content {
+  padding: 0 40px 40px;
+}
+
+/* line 64, ../sass/community-base/_post.scss */
+.post-header + .post-content > p:first-child {
+  margin-top: 0;
+}
+
+/* line 68, ../sass/community-base/_post.scss */
+.post .post-content > .rating {
+  margin-bottom: 20px;
+}
+
+/* line 72, ../sass/community-base/_post.scss */
+.post .post-content h4 {
+  text-transform: none;
+  line-height: .9;
+  margin: 0;
+}
+
+/* line 78, ../sass/community-base/_post.scss */
+.post .post-content .description {
+  max-height: 95px;
+  overflow: hidden;
+}
+
+/* line 83, ../sass/community-base/_post.scss */
+.post .post-content ul.summary {
+  color: #666666;
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 10px 0 0;
+  width: 100%;
+}
+
+/* line 91, ../sass/community-base/_post.scss */
+.post .post-content .product-listing {
+  border-top: 1px solid #c2c2c2;
+  border-bottom: 1px solid #c2c2c2;
+  padding: 20px 0 10px;
+}
+
+/* line 98, ../sass/community-base/_post.scss */
+.post .helpful-wrapper {
+  margin-top: 40px;
+}
+
+/* line 102, ../sass/community-base/_post.scss */
+.post.inline .helpful-wrapper {
+  margin-top: 20px;
+}
+
+/* line 106, ../sass/community-base/_post.scss */
+.post .helpful-votes + .mouse {
+  float: none;
+}
+
+/* line 110, ../sass/community-base/_post.scss */
+.post .post-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 116, ../sass/community-base/_post.scss */
+.post .post-menu .btn {
+  cursor: pointer;
+  opacity: .6;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 122, ../sass/community-base/_post.scss */
+.post .post-menu .btn:hover {
+  opacity: 1;
+}
+
+/* line 126, ../sass/community-base/_post.scss */
+.post .post-menu ul.options {
+  background-color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 16px rgba(34, 34, 34, 0.6);
+  -moz-box-shadow: 0 0 16px rgba(34, 34, 34, 0.6);
+  box-shadow: 0 0 16px rgba(34, 34, 34, 0.6);
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+/* line 139, ../sass/community-base/_post.scss */
+.post-menu ul.options li {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 144, ../sass/community-base/_post.scss */
+.post-menu ul.options li a {
+  color: #222222;
+  display: block;
+  height: 32px;
+  line-height: 28px;
+  margin: 0;
+  padding: 4px 10px 0;
+  white-space: nowrap;
+}
+
+/* line 154, ../sass/community-base/_post.scss */
+.post-menu ul.options li a:hover {
+  background: #efefef;
+  color: #222222;
+}
+
+/* line 159, ../sass/community-base/_post.scss */
+.post.inline {
+  margin-top: -1px;
+  margin-bottom: 0;
+  background: #efefef;
+}

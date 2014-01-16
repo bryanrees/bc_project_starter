@@ -1,0 +1,90 @@
+* { -webkit-font-smoothing:antialiased; }
+
+body {
+  color:$black;
+  font-family:$font-stack;
+  font-size:18px;
+  line-height:1.35;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+.header-0,
+.header-1, 
+.header-2, 
+.header-3, 
+.header-4, 
+.header-5 {
+  text-transform:uppercase;
+  line-height:1.35;
+}
+
+.header-0 {
+  font-size:60px;
+  line-height:50px;
+}
+
+h1,
+.header-1 {
+  font-size:44px;
+}
+
+h2,
+.header-2, {
+  font-size:32px;
+}
+
+h3,
+.header-3 {
+  font-size:24px;
+}
+
+h4,
+.header-4 {
+  font-size:18px;
+}
+
+.mouse {
+  font-size:16px;
+  color:$bc-gray;
+  line-height:18px;
+}
+
+a {
+  color:$bc-light-blue;
+  text-decoration:none;
+  @include transition(all .3s ease-in-out);
+}
+
+a:hover {
+  color:$black;
+}
+
+a.white {
+  color:#fff;
+  text-decoration:underline;
+}
+
+a.white:hover {
+  color:#fff;
+  text-decoration:none;
+}
+
+hr {
+  border:0;
+  border-top:1px solid $lightest-gray;
+  display:block;
+  float:left;
+  height:0;
+  margin:0;
+  position:relative;
+  padding:0;
+  width:100%;
+}
+
+hr.light {
+  border-top:1px solid $light-gray;
+}

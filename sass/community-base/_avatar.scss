@@ -1,0 +1,81 @@
+.avatar { 
+  background-image:url('../img/profile-default.png'); 
+  background-position:center center; 
+  background-repeat:no-repeat;
+  background-size:cover;
+  border:3px solid #222;
+  @include border-radius(80px);
+  cursor:pointer;
+  display:block;
+  height:60px;
+  position:relative;
+  width:60px;
+}
+
+.avatar a {
+  display:block;
+  height:100%;
+  width:100%;
+}
+
+.avatar.x-large {
+  border:5px solid #222;
+  height:160px;
+  width:160px;
+}
+
+.avatar.large {
+  height:80px;
+  width:80px;
+}
+
+.avatar.small {
+  height:50px;
+  width:50px;
+}
+
+.avatar.following {
+  border-color:$bc-green;
+}
+
+/* Add Follow Button */
+
+.avatar .follow {
+  background-color:#222;
+  background-image:url('../img/ico-12-plus-white.png');
+  background-position:center center;
+  background-repeat:no-repeat;
+  display:block;
+  height:22px;
+  left:-12px;
+  margin-top:-11px;
+  position:absolute;
+  top:50%;
+  width:22px;
+  @include transition(all .3s ease-in-out);
+}
+
+.avatar.large .follow {
+  left:-13px;
+}
+
+.avatar .follow:hover {
+  background-color:#99cc33;
+}
+
+.avatar .following {
+  background-color:#99cc33;
+  background-image:url('../img/ico-12-check-black.png');
+}
+
+/* Tooltip Positioning */
+
+.avatar .tooltip {
+  top:-13px;
+  left:-1px;
+}
+
+.avatar.large .tooltip {
+  top:-3px;
+  left:-2px;
+}
